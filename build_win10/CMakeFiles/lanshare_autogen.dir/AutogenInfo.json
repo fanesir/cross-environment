@@ -1,0 +1,418 @@
+{
+	"BUILD_DIR" : "//home/user/test_code/build_win10/lanshare_autogen",
+	"CMAKE_BINARY_DIR" : "//home/user/test_code/build_win10",
+	"CMAKE_CURRENT_BINARY_DIR" : "//home/user/test_code/build_win10",
+	"CMAKE_CURRENT_SOURCE_DIR" : "//home/user/test_code",
+	"CMAKE_EXECUTABLE" : "/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"//home/user/test_code/CMakeLists.txt",
+		"//home/user/test_code/build_win10/CMakeFiles/3.23.2/CMakeSystem.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.d/boost.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.d/ccache.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.d/pkgconf.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.d/qtbase.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake",
+		"//home/user/test_code/build_win10/CMakeFiles/3.23.2/CMakeCCompiler.cmake",
+		"//home/user/test_code/build_win10/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeGenericSystem.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCInformation.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Compiler/GNU-C.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Compiler/GNU.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake",
+		"//home/user/test_code/build_win10/CMakeFiles/3.23.2/CMakeRCCompiler.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeRCInformation.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows-windres.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCXXInformation.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Compiler/GNU.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeParseArguments.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5EventDispatcherSupport/Qt5EventDispatcherSupportConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5EventDispatcherSupport/Qt5EventDispatcherSupportConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5FontDatabaseSupport/Qt5FontDatabaseSupportConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5FontDatabaseSupport/Qt5FontDatabaseSupportConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/FindThreads.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CheckLibraryExists.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CheckIncludeFile.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/FindPackageMessage.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeParseArguments.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboardConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboardConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5PacketProtocol/Qt5PacketProtocolConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5PacketProtocol/Qt5PacketProtocolConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboard_QtVirtualKeyboardHangulPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboardConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboardConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboard_QtVirtualKeyboardOpenWnnPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboard_QtVirtualKeyboardPinyinPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboard_QtVirtualKeyboardTCImePlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5VirtualKeyboard/Qt5VirtualKeyboard_QtVirtualKeyboardThaiPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5ThemeSupport/Qt5ThemeSupportConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5ThemeSupport/Qt5ThemeSupportConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5AccessibilitySupport/Qt5AccessibilitySupportConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5AccessibilitySupport/Qt5AccessibilitySupportConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5WindowsUIAutomationSupport/Qt5WindowsUIAutomationSupportConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5WindowsUIAutomationSupport/Qt5WindowsUIAutomationSupportConfig.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"//home/user/test_code/res.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "//home/user/test_code",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"//home/user/test_code/model/device.h",
+			"MU",
+			"NLOY5YBGEN/moc_device.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/model/devicelistmodel.h",
+			"MU",
+			"NLOY5YBGEN/moc_devicelistmodel.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/model/transferinfo.h",
+			"MU",
+			"NLOY5YBGEN/moc_transferinfo.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/model/transfertablemodel.h",
+			"MU",
+			"NLOY5YBGEN/moc_transfertablemodel.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/settings.h",
+			"MU",
+			"EWIEGA46WW/moc_settings.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/singleinstance.h",
+			"MU",
+			"EWIEGA46WW/moc_singleinstance.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/transfer/devicebroadcaster.h",
+			"MU",
+			"3YJ5MMVV62/moc_devicebroadcaster.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/transfer/receiver.h",
+			"MU",
+			"3YJ5MMVV62/moc_receiver.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/transfer/sender.h",
+			"MU",
+			"3YJ5MMVV62/moc_sender.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/transfer/transfer.h",
+			"MU",
+			"3YJ5MMVV62/moc_transfer.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/transfer/transferserver.h",
+			"MU",
+			"3YJ5MMVV62/moc_transferserver.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/ui/aboutdialog.h",
+			"MU",
+			"UYX5XTB5RZ/moc_aboutdialog.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/ui/mainwindow.h",
+			"MU",
+			"UYX5XTB5RZ/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/ui/receiverselectordialog.h",
+			"MU",
+			"UYX5XTB5RZ/moc_receiverselectordialog.cpp",
+			null
+		],
+		[
+			"//home/user/test_code/ui/settingsdialog.h",
+			"MU",
+			"UYX5XTB5RZ/moc_settingsdialog.cpp",
+			null
+		],
+		[ "//home/user/test_code/util.h", "MU", "EWIEGA46WW/moc_util.cpp", null ]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "//home/user/test_code/build_win10/lanshare_autogen/include",
+	"MOC_COMPILATION_FILE" : "//home/user/test_code/build_win10/lanshare_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_ACCESSIBILITY_SUPPORT_LIB",
+		"QT_CORE_LIB",
+		"QT_EVENTDISPATCHER_SUPPORT_LIB",
+		"QT_FONTDATABASE_SUPPORT_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SVG_LIB",
+		"QT_THEME_SUPPORT_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_WINDOWSUIAUTOMATION_SUPPORT_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"//home/user/test_code/build_win10",
+		"//home/user/test_code",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/mkspecs/win32-g++",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtSvg",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtEventDispatcherSupport",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtFontDatabaseSupport",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtThemeSupport",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtAccessibilitySupport",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWindowsUIAutomationSupport",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork",
+		"/home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++",
+		"/home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/x86_64-w64-mingw32.static",
+		"/home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/backward",
+		"/home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include",
+		"/home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include-fixed",
+		"/home/user/mxe/usr/x86_64-w64-mingw32.static/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "//home/user/test_code/build_win10/lanshare_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "//home/user/test_code/build_win10/CMakeFiles/lanshare_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "//home/user/test_code/build_win10/CMakeFiles/lanshare_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "//home/user/test_code/main.cpp", "MU", null ],
+		[ "//home/user/test_code/model/device.cpp", "MU", null ],
+		[ "//home/user/test_code/model/devicelistmodel.cpp", "MU", null ],
+		[ "//home/user/test_code/model/transferinfo.cpp", "MU", null ],
+		[ "//home/user/test_code/model/transfertablemodel.cpp", "MU", null ],
+		[ "//home/user/test_code/settings.cpp", "MU", null ],
+		[ "//home/user/test_code/singleinstance.cpp", "MU", null ],
+		[ "//home/user/test_code/transfer/devicebroadcaster.cpp", "MU", null ],
+		[ "//home/user/test_code/transfer/receiver.cpp", "MU", null ],
+		[ "//home/user/test_code/transfer/sender.cpp", "MU", null ],
+		[ "//home/user/test_code/transfer/transfer.cpp", "MU", null ],
+		[ "//home/user/test_code/transfer/transferserver.cpp", "MU", null ],
+		[ "//home/user/test_code/ui/aboutdialog.cpp", "MU", null ],
+		[ "//home/user/test_code/ui/mainwindow.cpp", "MU", null ],
+		[ "//home/user/test_code/ui/receiverselectordialog.cpp", "MU", null ],
+		[ "//home/user/test_code/ui/settingsdialog.cpp", "MU", null ],
+		[ "//home/user/test_code/util.cpp", "MU", null ],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

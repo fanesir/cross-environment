@@ -1,0 +1,3 @@
+/usr/bin/cmake -E remove -f CMakeFiles/send_app.dir/objects.a
+/home/user/mxe/usr/bin/x86_64-w64-mingw32.static-ar cr CMakeFiles/send_app.dir/objects.a @CMakeFiles/send_app.dir/objects1.rsp
+/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ -fPIC -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles/send_app.dir/objects.a -Wl,--no-whole-archive  -o send_app.exe -Wl,--out-implib,libsend_app.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/send_app.dir/linklibs.rsp

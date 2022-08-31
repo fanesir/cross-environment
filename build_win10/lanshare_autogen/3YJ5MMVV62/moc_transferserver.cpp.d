@@ -1,5 +1,5 @@
-//home/user/test_code/build_win10/lanshare_autogen/3YJ5MMVV62/moc_transferserver.cpp: //home/user/test_code/transfer/transferserver.h \
-  //home/user/test_code/build_win10/lanshare_autogen/moc_predefs.h \
+/home/user/test_code/cross-environment/build_win10/lanshare_autogen/3YJ5MMVV62/moc_transferserver.cpp: /home/user/test_code/cross-environment/transfer/transferserver.h \
+  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/moc_predefs.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include-fixed/limits.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include-fixed/syslimits.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/algorithm \
@@ -477,9 +477,9 @@
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/qtnetworkglobal.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/qtnetworkversion.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/qudpsocket.h \
-  /home/user/test_code/model/device.h \
-  /home/user/test_code/model/devicelistmodel.h \
-  /home/user/test_code/model/transferinfo.h \
-  /home/user/test_code/transfer/devicebroadcaster.h \
-  /home/user/test_code/transfer/receiver.h \
-  /home/user/test_code/transfer/transfer.h
+  /home/user/test_code/cross-environment/model/device.h \
+  /home/user/test_code/cross-environment/model/devicelistmodel.h \
+  /home/user/test_code/cross-environment/model/transferinfo.h \
+  /home/user/test_code/cross-environment/transfer/devicebroadcaster.h \
+  /home/user/test_code/cross-environment/transfer/receiver.h \
+  /home/user/test_code/cross-environment/transfer/transfer.h

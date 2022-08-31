@@ -1,5 +1,5 @@
-//home/user/test_code/build_win10/lanshare_autogen/UYX5XTB5RZ/moc_aboutdialog.cpp: //home/user/test_code/ui/aboutdialog.h \
-  //home/user/test_code/build_win10/lanshare_autogen/moc_predefs.h \
+/home/user/test_code/cross-environment/build_win10/lanshare_autogen/UYX5XTB5RZ/moc_aboutdialog.cpp: /home/user/test_code/cross-environment/ui/aboutdialog.h \
+  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/moc_predefs.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include-fixed/limits.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include-fixed/syslimits.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/algorithm \

@@ -1,0 +1,4 @@
+/home/user/test_code/cross-environment/test_build/CMakeFiles/lanshare.dir
+/home/user/test_code/cross-environment/test_build/CMakeFiles/edit_cache.dir
+/home/user/test_code/cross-environment/test_build/CMakeFiles/rebuild_cache.dir
+/home/user/test_code/cross-environment/test_build/CMakeFiles/lanshare_autogen.dir

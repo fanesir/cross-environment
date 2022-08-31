@@ -53,10 +53,10 @@ RM = /home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = //home/user/test_code
+CMAKE_SOURCE_DIR = /home/user/test_code/cross-environment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = //home/user/test_code/build_win10
+CMAKE_BINARY_DIR = /home/user/test_code/cross-environment/build_win10
 
 # Utility rule file for lanshare_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/lanshare_autogen.dir/compiler_depend.make
 include CMakeFiles/lanshare_autogen.dir/progress.make
 
 CMakeFiles/lanshare_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target lanshare"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_autogen //home/user/test_code/build_win10/CMakeFiles/lanshare_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target lanshare"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_autogen /home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare_autogen.dir/AutogenInfo.json Release
 
 lanshare_autogen: CMakeFiles/lanshare_autogen
 lanshare_autogen: CMakeFiles/lanshare_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/lanshare_autogen.dir/clean:
 .PHONY : CMakeFiles/lanshare_autogen.dir/clean
 
 CMakeFiles/lanshare_autogen.dir/depend:
-	cd //home/user/test_code/build_win10 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" //home/user/test_code //home/user/test_code //home/user/test_code/build_win10 //home/user/test_code/build_win10 //home/user/test_code/build_win10/CMakeFiles/lanshare_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/test_code/cross-environment/build_win10 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/test_code/cross-environment /home/user/test_code/cross-environment /home/user/test_code/cross-environment/build_win10 /home/user/test_code/cross-environment/build_win10 /home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lanshare_autogen.dir/depend
 

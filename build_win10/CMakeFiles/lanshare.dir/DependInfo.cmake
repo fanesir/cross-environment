@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_RC
-  "//home/user/test_code/appicon.rc" "//home/user/test_code/build_win10/CMakeFiles/lanshare.dir/appicon.rc.res"
+  "/home/user/test_code/cross-environment/appicon.rc" "/home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare.dir/appicon.rc.res"
   )
 
 # Preprocessor definitions for this target.
@@ -62,25 +62,25 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp" "CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj.d"
   "/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp" "CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj.d"
   "/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp" "CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj.d"
-  "//home/user/test_code/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp" "CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj.d"
-  "//home/user/test_code/build_win10/lanshare_autogen/mocs_compilation.cpp" "CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj.d"
-  "//home/user/test_code/main.cpp" "CMakeFiles/lanshare.dir/main.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/main.cpp.obj.d"
-  "//home/user/test_code/model/device.cpp" "CMakeFiles/lanshare.dir/model/device.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/device.cpp.obj.d"
-  "//home/user/test_code/model/devicelistmodel.cpp" "CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj.d"
-  "//home/user/test_code/model/transferinfo.cpp" "CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj.d"
-  "//home/user/test_code/model/transfertablemodel.cpp" "CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj.d"
-  "//home/user/test_code/settings.cpp" "CMakeFiles/lanshare.dir/settings.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/settings.cpp.obj.d"
-  "//home/user/test_code/singleinstance.cpp" "CMakeFiles/lanshare.dir/singleinstance.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/singleinstance.cpp.obj.d"
-  "//home/user/test_code/transfer/devicebroadcaster.cpp" "CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj.d"
-  "//home/user/test_code/transfer/receiver.cpp" "CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj.d"
-  "//home/user/test_code/transfer/sender.cpp" "CMakeFiles/lanshare.dir/transfer/sender.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/sender.cpp.obj.d"
-  "//home/user/test_code/transfer/transfer.cpp" "CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj.d"
-  "//home/user/test_code/transfer/transferserver.cpp" "CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj.d"
-  "//home/user/test_code/ui/aboutdialog.cpp" "CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj.d"
-  "//home/user/test_code/ui/mainwindow.cpp" "CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj.d"
-  "//home/user/test_code/ui/receiverselectordialog.cpp" "CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj.d"
-  "//home/user/test_code/ui/settingsdialog.cpp" "CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj.d"
-  "//home/user/test_code/util.cpp" "CMakeFiles/lanshare.dir/util.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/util.cpp.obj.d"
+  "/home/user/test_code/cross-environment/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp" "CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj.d"
+  "/home/user/test_code/cross-environment/build_win10/lanshare_autogen/mocs_compilation.cpp" "CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj.d"
+  "/home/user/test_code/cross-environment/main.cpp" "CMakeFiles/lanshare.dir/main.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/main.cpp.obj.d"
+  "/home/user/test_code/cross-environment/model/device.cpp" "CMakeFiles/lanshare.dir/model/device.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/device.cpp.obj.d"
+  "/home/user/test_code/cross-environment/model/devicelistmodel.cpp" "CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj.d"
+  "/home/user/test_code/cross-environment/model/transferinfo.cpp" "CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj.d"
+  "/home/user/test_code/cross-environment/model/transfertablemodel.cpp" "CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj.d"
+  "/home/user/test_code/cross-environment/settings.cpp" "CMakeFiles/lanshare.dir/settings.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/settings.cpp.obj.d"
+  "/home/user/test_code/cross-environment/singleinstance.cpp" "CMakeFiles/lanshare.dir/singleinstance.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/singleinstance.cpp.obj.d"
+  "/home/user/test_code/cross-environment/transfer/devicebroadcaster.cpp" "CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj.d"
+  "/home/user/test_code/cross-environment/transfer/receiver.cpp" "CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj.d"
+  "/home/user/test_code/cross-environment/transfer/sender.cpp" "CMakeFiles/lanshare.dir/transfer/sender.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/sender.cpp.obj.d"
+  "/home/user/test_code/cross-environment/transfer/transfer.cpp" "CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj.d"
+  "/home/user/test_code/cross-environment/transfer/transferserver.cpp" "CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj.d"
+  "/home/user/test_code/cross-environment/ui/aboutdialog.cpp" "CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj.d"
+  "/home/user/test_code/cross-environment/ui/mainwindow.cpp" "CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj.d"
+  "/home/user/test_code/cross-environment/ui/receiverselectordialog.cpp" "CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj.d"
+  "/home/user/test_code/cross-environment/ui/settingsdialog.cpp" "CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj.d"
+  "/home/user/test_code/cross-environment/util.cpp" "CMakeFiles/lanshare.dir/util.cpp.obj" "gcc" "CMakeFiles/lanshare.dir/util.cpp.obj.d"
   )
 
 # Targets to which this target links.

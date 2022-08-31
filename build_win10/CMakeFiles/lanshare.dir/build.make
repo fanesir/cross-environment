@@ -53,10 +53,10 @@ RM = /home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = //home/user/test_code
+CMAKE_SOURCE_DIR = /home/user/test_code/cross-environment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = //home/user/test_code/build_win10
+CMAKE_BINARY_DIR = /home/user/test_code/cross-environment/build_win10
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lanshare.dir/depend.make
@@ -91,304 +91,304 @@ lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/pause.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/settings.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/folder.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for res.qrc"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_autorcc //home/user/test_code/build_win10/CMakeFiles/lanshare_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for res.qrc"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_autorcc /home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Release
 
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: lanshare_autogen/mocs_compilation.cpp
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj -MF CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj.d -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj -c //home/user/test_code/build_win10/lanshare_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj -MF CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj.d -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj -c /home/user/test_code/cross-environment/build_win10/lanshare_autogen/mocs_compilation.cpp
 
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/build_win10/lanshare_autogen/mocs_compilation.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/build_win10/lanshare_autogen/mocs_compilation.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/build_win10/lanshare_autogen/mocs_compilation.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/build_win10/lanshare_autogen/mocs_compilation.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/lanshare.dir/main.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/main.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/lanshare.dir/main.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lanshare.dir/main.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/main.cpp.obj -MF CMakeFiles/lanshare.dir/main.cpp.obj.d -o CMakeFiles/lanshare.dir/main.cpp.obj -c //home/user/test_code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lanshare.dir/main.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/main.cpp.obj -MF CMakeFiles/lanshare.dir/main.cpp.obj.d -o CMakeFiles/lanshare.dir/main.cpp.obj -c /home/user/test_code/cross-environment/main.cpp
 
 CMakeFiles/lanshare.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/main.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/main.cpp > CMakeFiles/lanshare.dir/main.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/main.cpp > CMakeFiles/lanshare.dir/main.cpp.i
 
 CMakeFiles/lanshare.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/main.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/main.cpp -o CMakeFiles/lanshare.dir/main.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/main.cpp -o CMakeFiles/lanshare.dir/main.cpp.s
 
 CMakeFiles/lanshare.dir/settings.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/settings.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/settings.cpp.obj: ../settings.cpp
 CMakeFiles/lanshare.dir/settings.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lanshare.dir/settings.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/settings.cpp.obj -MF CMakeFiles/lanshare.dir/settings.cpp.obj.d -o CMakeFiles/lanshare.dir/settings.cpp.obj -c //home/user/test_code/settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lanshare.dir/settings.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/settings.cpp.obj -MF CMakeFiles/lanshare.dir/settings.cpp.obj.d -o CMakeFiles/lanshare.dir/settings.cpp.obj -c /home/user/test_code/cross-environment/settings.cpp
 
 CMakeFiles/lanshare.dir/settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/settings.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/settings.cpp > CMakeFiles/lanshare.dir/settings.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/settings.cpp > CMakeFiles/lanshare.dir/settings.cpp.i
 
 CMakeFiles/lanshare.dir/settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/settings.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/settings.cpp -o CMakeFiles/lanshare.dir/settings.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/settings.cpp -o CMakeFiles/lanshare.dir/settings.cpp.s
 
 CMakeFiles/lanshare.dir/singleinstance.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/singleinstance.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/singleinstance.cpp.obj: ../singleinstance.cpp
 CMakeFiles/lanshare.dir/singleinstance.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lanshare.dir/singleinstance.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/singleinstance.cpp.obj -MF CMakeFiles/lanshare.dir/singleinstance.cpp.obj.d -o CMakeFiles/lanshare.dir/singleinstance.cpp.obj -c //home/user/test_code/singleinstance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lanshare.dir/singleinstance.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/singleinstance.cpp.obj -MF CMakeFiles/lanshare.dir/singleinstance.cpp.obj.d -o CMakeFiles/lanshare.dir/singleinstance.cpp.obj -c /home/user/test_code/cross-environment/singleinstance.cpp
 
 CMakeFiles/lanshare.dir/singleinstance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/singleinstance.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/singleinstance.cpp > CMakeFiles/lanshare.dir/singleinstance.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/singleinstance.cpp > CMakeFiles/lanshare.dir/singleinstance.cpp.i
 
 CMakeFiles/lanshare.dir/singleinstance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/singleinstance.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/singleinstance.cpp -o CMakeFiles/lanshare.dir/singleinstance.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/singleinstance.cpp -o CMakeFiles/lanshare.dir/singleinstance.cpp.s
 
 CMakeFiles/lanshare.dir/util.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/util.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/util.cpp.obj: ../util.cpp
 CMakeFiles/lanshare.dir/util.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lanshare.dir/util.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/util.cpp.obj -MF CMakeFiles/lanshare.dir/util.cpp.obj.d -o CMakeFiles/lanshare.dir/util.cpp.obj -c //home/user/test_code/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lanshare.dir/util.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/util.cpp.obj -MF CMakeFiles/lanshare.dir/util.cpp.obj.d -o CMakeFiles/lanshare.dir/util.cpp.obj -c /home/user/test_code/cross-environment/util.cpp
 
 CMakeFiles/lanshare.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/util.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/util.cpp > CMakeFiles/lanshare.dir/util.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/util.cpp > CMakeFiles/lanshare.dir/util.cpp.i
 
 CMakeFiles/lanshare.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/util.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/util.cpp -o CMakeFiles/lanshare.dir/util.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/util.cpp -o CMakeFiles/lanshare.dir/util.cpp.s
 
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: ../ui/mainwindow.cpp
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj -MF CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj -c //home/user/test_code/ui/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj -MF CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj -c /home/user/test_code/cross-environment/ui/mainwindow.cpp
 
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/ui/mainwindow.cpp > CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/mainwindow.cpp > CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i
 
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/ui/mainwindow.cpp -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/mainwindow.cpp -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj: ../ui/receiverselectordialog.cpp
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj -MF CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj -c //home/user/test_code/ui/receiverselectordialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj -MF CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj -c /home/user/test_code/cross-environment/ui/receiverselectordialog.cpp
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/ui/receiverselectordialog.cpp > CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/receiverselectordialog.cpp > CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/ui/receiverselectordialog.cpp -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/receiverselectordialog.cpp -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s
 
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj: ../ui/aboutdialog.cpp
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj -MF CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj -c //home/user/test_code/ui/aboutdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj -MF CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.obj -c /home/user/test_code/cross-environment/ui/aboutdialog.cpp
 
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/ui/aboutdialog.cpp > CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/aboutdialog.cpp > CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i
 
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/ui/aboutdialog.cpp -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/aboutdialog.cpp -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s
 
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj: ../ui/settingsdialog.cpp
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj -MF CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj -c //home/user/test_code/ui/settingsdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj -MF CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj.d -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj -c /home/user/test_code/cross-environment/ui/settingsdialog.cpp
 
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/ui/settingsdialog.cpp > CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/settingsdialog.cpp > CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i
 
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/ui/settingsdialog.cpp -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/settingsdialog.cpp -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj: ../transfer/devicebroadcaster.cpp
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj -c //home/user/test_code/transfer/devicebroadcaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.obj -c /home/user/test_code/cross-environment/transfer/devicebroadcaster.cpp
 
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/transfer/devicebroadcaster.cpp > CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/devicebroadcaster.cpp > CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/transfer/devicebroadcaster.cpp -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/devicebroadcaster.cpp -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj: ../transfer/receiver.cpp
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj -c //home/user/test_code/transfer/receiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.obj -c /home/user/test_code/cross-environment/transfer/receiver.cpp
 
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/receiver.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/transfer/receiver.cpp > CMakeFiles/lanshare.dir/transfer/receiver.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/receiver.cpp > CMakeFiles/lanshare.dir/transfer/receiver.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/receiver.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/transfer/receiver.cpp -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/receiver.cpp -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/sender.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/sender.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/transfer/sender.cpp.obj: ../transfer/sender.cpp
 CMakeFiles/lanshare.dir/transfer/sender.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lanshare.dir/transfer/sender.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/sender.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/sender.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/sender.cpp.obj -c //home/user/test_code/transfer/sender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lanshare.dir/transfer/sender.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/sender.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/sender.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/sender.cpp.obj -c /home/user/test_code/cross-environment/transfer/sender.cpp
 
 CMakeFiles/lanshare.dir/transfer/sender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/sender.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/transfer/sender.cpp > CMakeFiles/lanshare.dir/transfer/sender.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/sender.cpp > CMakeFiles/lanshare.dir/transfer/sender.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/sender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/sender.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/transfer/sender.cpp -o CMakeFiles/lanshare.dir/transfer/sender.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/sender.cpp -o CMakeFiles/lanshare.dir/transfer/sender.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj: ../transfer/transfer.cpp
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj -c //home/user/test_code/transfer/transfer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.obj -c /home/user/test_code/cross-environment/transfer/transfer.cpp
 
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/transfer.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/transfer/transfer.cpp > CMakeFiles/lanshare.dir/transfer/transfer.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/transfer.cpp > CMakeFiles/lanshare.dir/transfer/transfer.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/transfer.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/transfer/transfer.cpp -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/transfer.cpp -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj: ../transfer/transferserver.cpp
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj -c //home/user/test_code/transfer/transferserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj -MF CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj.d -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.obj -c /home/user/test_code/cross-environment/transfer/transferserver.cpp
 
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/transfer/transferserver.cpp > CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/transferserver.cpp > CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/transfer/transferserver.cpp -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/transferserver.cpp -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s
 
 CMakeFiles/lanshare.dir/model/device.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/device.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/model/device.cpp.obj: ../model/device.cpp
 CMakeFiles/lanshare.dir/model/device.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lanshare.dir/model/device.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/device.cpp.obj -MF CMakeFiles/lanshare.dir/model/device.cpp.obj.d -o CMakeFiles/lanshare.dir/model/device.cpp.obj -c //home/user/test_code/model/device.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lanshare.dir/model/device.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/device.cpp.obj -MF CMakeFiles/lanshare.dir/model/device.cpp.obj.d -o CMakeFiles/lanshare.dir/model/device.cpp.obj -c /home/user/test_code/cross-environment/model/device.cpp
 
 CMakeFiles/lanshare.dir/model/device.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/device.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/model/device.cpp > CMakeFiles/lanshare.dir/model/device.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/device.cpp > CMakeFiles/lanshare.dir/model/device.cpp.i
 
 CMakeFiles/lanshare.dir/model/device.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/device.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/model/device.cpp -o CMakeFiles/lanshare.dir/model/device.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/device.cpp -o CMakeFiles/lanshare.dir/model/device.cpp.s
 
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj: ../model/devicelistmodel.cpp
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj -MF CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj.d -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj -c //home/user/test_code/model/devicelistmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj -MF CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj.d -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.obj -c /home/user/test_code/cross-environment/model/devicelistmodel.cpp
 
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/model/devicelistmodel.cpp > CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/devicelistmodel.cpp > CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i
 
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/model/devicelistmodel.cpp -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/devicelistmodel.cpp -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s
 
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj: ../model/transferinfo.cpp
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj -MF CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj.d -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj -c //home/user/test_code/model/transferinfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj -MF CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj.d -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.obj -c /home/user/test_code/cross-environment/model/transferinfo.cpp
 
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/transferinfo.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/model/transferinfo.cpp > CMakeFiles/lanshare.dir/model/transferinfo.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/transferinfo.cpp > CMakeFiles/lanshare.dir/model/transferinfo.cpp.i
 
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/transferinfo.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/model/transferinfo.cpp -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/transferinfo.cpp -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.s
 
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: ../model/transfertablemodel.cpp
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj -MF CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj.d -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj -c //home/user/test_code/model/transfertablemodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj -MF CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj.d -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj -c /home/user/test_code/cross-environment/model/transfertablemodel.cpp
 
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/model/transfertablemodel.cpp > CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/transfertablemodel.cpp > CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i
 
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/model/transfertablemodel.cpp -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/transfertablemodel.cpp -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s
 
 CMakeFiles/lanshare.dir/appicon.rc.res: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/appicon.rc.res: ../appicon.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building RC object CMakeFiles/lanshare.dir/appicon.rc.res"
-	/home/user/mxe/usr/bin/x86_64-w64-mingw32.static-windres -O coff $(RC_DEFINES) $(RC_INCLUDES) //home/user/test_code/appicon.rc CMakeFiles/lanshare.dir/appicon.rc.res
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building RC object CMakeFiles/lanshare.dir/appicon.rc.res"
+	/home/user/mxe/usr/bin/x86_64-w64-mingw32.static-windres -O coff $(RC_DEFINES) $(RC_INCLUDES) /home/user/test_code/cross-environment/appicon.rc CMakeFiles/lanshare.dir/appicon.rc.res
 
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj: lanshare_autogen/EWIEGA46WW/qrc_res.cpp
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj -MF CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj.d -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj -c //home/user/test_code/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj"
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj -MF CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj.d -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.obj -c /home/user/test_code/cross-environment/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp
 
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E //home/user/test_code/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i
 
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s"
-	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S //home/user/test_code/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s
+	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/build_win10/lanshare_autogen/EWIEGA46WW/qrc_res.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin_Import.cpp.i: cmake_force
@@ -403,7 +403,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin_Import.cpp.i: cmake_force
@@ -418,7 +418,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin_Import.cpp.i: cmake_force
@@ -433,7 +433,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin_Import.cpp.i: cmake_force
@@ -448,7 +448,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin_Import.cpp.i: cmake_force
@@ -463,7 +463,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin_Import.cpp.i: cmake_force
@@ -478,7 +478,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin_Import.cpp.i: cmake_force
@@ -493,7 +493,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin_Import.cpp.i: cmake_force
@@ -508,7 +508,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin_Import.cpp.i: cmake_force
@@ -523,7 +523,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin_Import.cpp.i: cmake_force
@@ -538,7 +538,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin_Import.cpp.i: cmake_force
@@ -553,7 +553,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin_Import.cpp.i: cmake_force
@@ -568,7 +568,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin_Import.cpp.i: cmake_force
@@ -583,7 +583,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin_Import.cpp.i: cmake_force
@@ -598,7 +598,7 @@ CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmak
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/includes_CXX.rsp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj: CMakeFiles/lanshare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj -MF CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj.d -o CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.obj -c /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp
 
 CMakeFiles/lanshare.dir/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin_Import.cpp.i: cmake_force
@@ -804,7 +804,7 @@ lanshare.exe: /home/user/mxe/usr/x86_64-w64-mingw32.static/lib/libcrypt32.a
 lanshare.exe: CMakeFiles/lanshare.dir/linklibs.rsp
 lanshare.exe: CMakeFiles/lanshare.dir/objects1.rsp
 lanshare.exe: CMakeFiles/lanshare.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=//home/user/test_code/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable lanshare.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable lanshare.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lanshare.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -816,6 +816,6 @@ CMakeFiles/lanshare.dir/clean:
 .PHONY : CMakeFiles/lanshare.dir/clean
 
 CMakeFiles/lanshare.dir/depend: lanshare_autogen/EWIEGA46WW/qrc_res.cpp
-	cd //home/user/test_code/build_win10 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" //home/user/test_code //home/user/test_code //home/user/test_code/build_win10 //home/user/test_code/build_win10 //home/user/test_code/build_win10/CMakeFiles/lanshare.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/test_code/cross-environment/build_win10 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/test_code/cross-environment /home/user/test_code/cross-environment /home/user/test_code/cross-environment/build_win10 /home/user/test_code/cross-environment/build_win10 /home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lanshare.dir/depend
 

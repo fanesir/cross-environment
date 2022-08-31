@@ -1,4 +1,4 @@
-//home/user/test_code/build_win10/CMakeFiles/lanshare.dir
-//home/user/test_code/build_win10/CMakeFiles/edit_cache.dir
-//home/user/test_code/build_win10/CMakeFiles/rebuild_cache.dir
-//home/user/test_code/build_win10/CMakeFiles/lanshare_autogen.dir
+/home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare.dir
+/home/user/test_code/cross-environment/build_win10/CMakeFiles/edit_cache.dir
+/home/user/test_code/cross-environment/build_win10/CMakeFiles/rebuild_cache.dir
+/home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare_autogen.dir

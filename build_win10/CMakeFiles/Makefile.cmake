@@ -7,12 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.23.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.23.2/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.23.2/CMakeSystem.cmake"
-  "../res.qrc"
   "/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCInformation.cmake"
   "/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCXXInformation.cmake"
   "/home/user/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
@@ -124,6 +118,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.d/ccache.cmake"
   "/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.d/pkgconf.cmake"
   "/home/user/mxe/usr/x86_64-w64-mingw32.static/share/cmake/mxe-conf.d/qtbase.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.23.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.23.2/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.23.2/CMakeSystem.cmake"
+  "../res.qrc"
   )
 
 # The corresponding makefile is:

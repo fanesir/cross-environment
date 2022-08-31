@@ -1,5 +1,5 @@
-//home/user/test_code/build_win10/lanshare_autogen/NLOY5YBGEN/moc_transferinfo.cpp: //home/user/test_code/model/transferinfo.h \
-  //home/user/test_code/build_win10/lanshare_autogen/moc_predefs.h \
+/home/user/test_code/cross-environment/build_win10/lanshare_autogen/NLOY5YBGEN/moc_transferinfo.cpp: /home/user/test_code/cross-environment/model/transferinfo.h \
+  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/moc_predefs.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include-fixed/limits.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include-fixed/syslimits.h \
   /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/algorithm \
@@ -257,4 +257,4 @@
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/qhostaddress.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/qtnetwork-config.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/qtnetworkglobal.h \
-  /home/user/test_code/model/device.h
+  /home/user/test_code/cross-environment/model/device.h

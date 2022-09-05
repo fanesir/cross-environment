@@ -691,6 +691,7 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h \
  /home/user/test_code/cross-environment/ui/settingsdialog.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
  /home/user/test_code/cross-environment/settings.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \

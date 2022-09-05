@@ -4348,7 +4348,8 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: lanshare_auto
   lanshare_autogen/UYX5XTB5RZ/moc_receiverselectordialog.cpp \
   ../ui/receiverselectordialog.h \
   lanshare_autogen/UYX5XTB5RZ/moc_settingsdialog.cpp \
-  ../ui/settingsdialog.h
+  ../ui/settingsdialog.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
 
 CMakeFiles/lanshare.dir/main.cpp.obj: ../main.cpp \
   ../ui/mainwindow.h \
@@ -9838,6 +9839,7 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: ../ui/mainwindow.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h \
   ../ui/settingsdialog.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
   ../settings.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
@@ -10765,6 +10767,8 @@ CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj: ../ui/settingsdialog.cpp \
   ../ui/settingsdialog.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   lanshare_autogen/include/ui_settingsdialog.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVariant \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvariant.h \
@@ -11236,6 +11240,10 @@ lanshare_autogen/include/ui_receiverselectordialog.h:
 
 ../util.h:
 
+../transfer/transfer.cpp:
+
+../settings.h:
+
 /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/bits/postypes.h:
 
 /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/bits/shared_ptr_base.h:
@@ -11465,10 +11473,6 @@ lanshare_autogen/UYX5XTB5RZ/moc_settingsdialog.cpp:
 /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/bits/ios_base.h:
 
 /home/user/mxe/usr/lib/gcc/x86_64-w64-mingw32.static/11.3.0/include/c++/bits/stl_tempbuf.h:
-
-../transfer/transfer.cpp:
-
-../settings.h:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/include/stdint.h:
 
@@ -12009,6 +12013,8 @@ lanshare_autogen/EWIEGA46WW/moc_singleinstance.cpp:
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QCryptographicHash:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qabstracteventdispatcher.h:
+
+/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsignalmapper.h:
 

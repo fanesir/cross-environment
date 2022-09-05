@@ -4366,6 +4366,7 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj
  /home/user/test_code/cross-environment/ui/receiverselectordialog.h
  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/UYX5XTB5RZ/moc_settingsdialog.cpp
  /home/user/test_code/cross-environment/ui/settingsdialog.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
 
 CMakeFiles/lanshare.dir/main.cpp.obj
  /home/user/test_code/cross-environment/main.cpp
@@ -9869,6 +9870,7 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h
  /home/user/test_code/cross-environment/ui/settingsdialog.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
  /home/user/test_code/cross-environment/settings.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString
@@ -10798,6 +10800,8 @@ CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj
  /home/user/test_code/cross-environment/ui/settingsdialog.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/include/ui_settingsdialog.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVariant
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvariant.h

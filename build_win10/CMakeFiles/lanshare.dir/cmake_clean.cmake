@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "../languages/lanshare_setting_tw.ts"
   "CMakeFiles/lanshare_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/lanshare_autogen.dir/ParseCache.txt"
   "lanshare_autogen"
@@ -74,6 +75,7 @@ file(REMOVE_RECURSE
   "lanshare.exe"
   "lanshare.pdb"
   "lanshare_autogen/EWIEGA46WW/qrc_res.cpp"
+  "lanshare_setting_tw.qm"
   "liblanshare.dll.a"
 )
 

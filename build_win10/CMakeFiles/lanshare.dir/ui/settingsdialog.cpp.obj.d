@@ -270,6 +270,8 @@ CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj: \
  /home/user/test_code/cross-environment/ui/settingsdialog.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/include/ui_settingsdialog.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVariant \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvariant.h \

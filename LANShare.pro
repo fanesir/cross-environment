@@ -56,3 +56,10 @@ FORMS += ui/mainwindow.ui \
 
 RESOURCES += \
     res.qrc
+
+TRANSLATIONS +=lanshare_tw.ts
+
+
+
+
+    

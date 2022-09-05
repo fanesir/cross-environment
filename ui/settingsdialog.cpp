@@ -22,6 +22,7 @@
 #include "ui_settingsdialog.h"
 
 #include "settings.h"
+#include <QTranslator>
 
 SettingsDialog::SettingsDialog(QWidget *parent) :
     QDialog(parent),
@@ -29,6 +30,17 @@ SettingsDialog::SettingsDialog(QWidget *parent) :
 {
     ui->setupUi(this);
     assign();
+
+
+    translator_ = new QTranslator();
+    translator_->load("/home/user/test_code/cross-environment/build_win10/lanshare_setting_tw.qm");// /home/user/work/LAN-Share/src/lanshare_tw.qm
+    qApp->installTranslator(translator_);
+    ui->retranslateUi(this);
+
+
+    ui->pushButton->setText(tr("Save"));
+
+
 }
 
 SettingsDialog::~SettingsDialog()

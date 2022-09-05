@@ -194,6 +194,7 @@
   /home/user/mxe/usr/x86_64-w64-mingw32.static/include/vadefs.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/include/wchar.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/include/wctype.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qalgorithms.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qarraydata.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qatomic.h \
@@ -246,6 +247,7 @@
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsysinfo.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsystemdetection.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtcore-config.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvarlengtharray.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvector.h \

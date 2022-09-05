@@ -20,6 +20,7 @@
 #define SETTINGSDIALOG_H
 
 #include <QDialog>
+#include <QTranslator>
 
 namespace Ui {
 class SettingsDialog;
@@ -43,6 +44,7 @@ private:
     void assign();
 
     Ui::SettingsDialog *ui;
+    QTranslator *translator_;
 };
 
 #endif // SETTINGSDIALOG_H

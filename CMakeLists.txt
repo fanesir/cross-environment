@@ -2,36 +2,42 @@ cmake_minimum_required(VERSION 3.16.3)
 project(test_code)
 
 
-find_package(QT NAMES Qt5 COMPONENTS Core Widgets Network)
-find_package(Qt5 COMPONENTS Core Widgets Network)
 
-INCLUDE_DIRECTORIES(/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include)#在這輸入編譯會輸出exe檔案
+find_package(QT NAMES Qt5 COMPONENTS Core Widgets Network   )
+find_package(Qt5 COMPONENTS Core Gui Widgets LinguistTools REQUIRED )
+INCLUDE_DIRECTORIES(/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include)
 
-
-#兩個 /usr/include/x86_64-linux-gnu/qt5 /usr/include/x86_64-linux-gnu/qt5/QtWidgets 
 message("path = ${Qt5_Gui_INCLUDE_DIRS}")
-
 LINK_DIRECTORIES(/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib) 
 
 
 SET(CMAKE_CXX_FLAGS "-fPIC")
 SET(CMAKE_CXX_STANDARD 11)
-
-
-# Qt特有的编译器需要打开，默认是关闭的
 SET(CMAKE_AUTOMOC ON)#V
 SET(CMAKE_AUTORCC ON)
 SET(CMAKE_AUTOUIC ON)
 SET(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 
-set (WIN32_RESOURCES ${CMAKE_CURRENT_SOURCE_DIR}/res.qrc)
-
+set(WIN32_RESOURCES ${CMAKE_CURRENT_SOURCE_DIR}/res.qrc)
 set(appicon "${CMAKE_CURRENT_SOURCE_DIR}/appicon.rc")
 
 
-#
-add_executable(lanshare  main.cpp 
+qt_create_translation(QM_FILES 
+			ui/settingsdialog.cpp 
+			ui/settingsdialog.ui 
+			languages/lanshare_setting_tw.ts)
+
+
+set(TS_FILESlanguages/lanshare_setting_tw.ts)
+
+qt_add_translation(APP_RES ${CMAKE_SOURCE_DIR} ${TS_FILES})
+
+
+#qt5_add_translation(QM_FILES ${TS_FILES})
+
+
+add_executable(lanshare   main.cpp 
 settings.cpp 
 singleinstance.cpp 
 util.cpp 
@@ -49,8 +55,12 @@ ui/receiverselectordialog.cpp /
     model/transferinfo.cpp /
     model/transfertablemodel.cpp /     
     ${WIN32_RESOURCES}
-    ${appicon})
-target_link_libraries(lanshare  Qt5::Widgets Qt5::Network )
+    ${appicon}      
+    
+    ${QM_FILES}
+    ${APP_RES}
+)
+target_link_libraries(lanshare  Qt5::Widgets Qt5::Network Qt5::Core Qt5::Gui)
 
 
 

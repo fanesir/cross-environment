@@ -22,19 +22,14 @@ SET(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(WIN32_RESOURCES ${CMAKE_CURRENT_SOURCE_DIR}/res.qrc)
 set(appicon "${CMAKE_CURRENT_SOURCE_DIR}/appicon.rc")
 
-
-qt_create_translation(QM_FILES 
-			ui/settingsdialog.cpp 
-			ui/settingsdialog.ui 
-			languages/lanshare_setting_tw.ts)
+set(TS_FILES
+  languages/lanshare_setting_tw.ts
+)
 
 
-set(TS_FILESlanguages/lanshare_setting_tw.ts)
 
-qt_add_translation(APP_RES ${CMAKE_SOURCE_DIR} ${TS_FILES})
-
-
-#qt5_add_translation(QM_FILES ${TS_FILES})
+qt5_create_translation(QM_FILES  ${CMAKE_SOURCE_DIR} ${TS_FILES})
+message(STATUS "QM_FILES=${QM_FILES}")
 
 
 add_executable(lanshare   main.cpp 
@@ -58,7 +53,7 @@ ui/receiverselectordialog.cpp /
     ${appicon}      
     
     ${QM_FILES}
-    ${APP_RES}
+  
 )
 target_link_libraries(lanshare  Qt5::Widgets Qt5::Network Qt5::Core Qt5::Gui)
 

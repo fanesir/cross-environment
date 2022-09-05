@@ -33,12 +33,17 @@ SettingsDialog::SettingsDialog(QWidget *parent) :
 
 
     translator_ = new QTranslator();
+    qApp->removeTranslator(translator_);
     translator_->load("/home/user/test_code/cross-environment/build_win10/lanshare_setting_tw.qm");// /home/user/work/LAN-Share/src/lanshare_tw.qm
     qApp->installTranslator(translator_);
+
+
+    ui->pushButton->setText(tr("Save"));//pushButton_2
     ui->retranslateUi(this);
 
 
-    ui->pushButton->setText(tr("Save"));
+
+//    ui->pushButton->setText(tr("Save"));
 
 
 }

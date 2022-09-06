@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/test_code
+CMAKE_SOURCE_DIR = /home/user/test_code/cross-environment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/test_code/build_cmake
+CMAKE_BINARY_DIR = /home/user/test_code/cross-environment/build_cmake
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lanshare.dir/depend.make
@@ -56,6 +56,10 @@ include CMakeFiles/lanshare.dir/progress.make
 
 # Include the compile flags for this target's objects.
 include CMakeFiles/lanshare.dir/flags.make
+
+lanshare_setting_tw.qm: ../languages/lanshare_setting_tw.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating lanshare_setting_tw.qm"
+	/usr/lib/qt5/bin/lrelease /home/user/test_code/cross-environment/languages/lanshare_setting_tw.ts -qm /home/user/test_code/cross-environment/build_cmake/lanshare_setting_tw.qm
 
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../res.qrc
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: CMakeFiles/lanshare_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json
@@ -79,255 +83,259 @@ lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/pause.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/settings.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/folder.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for res.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/user/test_code/build_cmake/CMakeFiles/lanshare_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for res.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/user/test_code/cross-environment/build_cmake/CMakeFiles/lanshare_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json 
+
+../languages/lanshare_setting_tw.ts: ../
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../languages/lanshare_setting_tw.ts"
+	/usr/lib/qt5/bin/lupdate @/home/user/test_code/cross-environment/build_cmake/CMakeFiles/lanshare_setting_tw.ts_lst_file -ts /home/user/test_code/cross-environment/languages/lanshare_setting_tw.ts
 
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.o: lanshare_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.o -c /home/user/test_code/build_cmake/lanshare_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.o -c /home/user/test_code/cross-environment/build_cmake/lanshare_autogen/mocs_compilation.cpp
 
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/build_cmake/lanshare_autogen/mocs_compilation.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/build_cmake/lanshare_autogen/mocs_compilation.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/build_cmake/lanshare_autogen/mocs_compilation.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/build_cmake/lanshare_autogen/mocs_compilation.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/lanshare.dir/main.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lanshare.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/main.cpp.o -c /home/user/test_code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lanshare.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/main.cpp.o -c /home/user/test_code/cross-environment/main.cpp
 
 CMakeFiles/lanshare.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/main.cpp > CMakeFiles/lanshare.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/main.cpp > CMakeFiles/lanshare.dir/main.cpp.i
 
 CMakeFiles/lanshare.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/main.cpp -o CMakeFiles/lanshare.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/main.cpp -o CMakeFiles/lanshare.dir/main.cpp.s
 
 CMakeFiles/lanshare.dir/settings.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/settings.cpp.o: ../settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lanshare.dir/settings.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/settings.cpp.o -c /home/user/test_code/settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lanshare.dir/settings.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/settings.cpp.o -c /home/user/test_code/cross-environment/settings.cpp
 
 CMakeFiles/lanshare.dir/settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/settings.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/settings.cpp > CMakeFiles/lanshare.dir/settings.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/settings.cpp > CMakeFiles/lanshare.dir/settings.cpp.i
 
 CMakeFiles/lanshare.dir/settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/settings.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/settings.cpp -o CMakeFiles/lanshare.dir/settings.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/settings.cpp -o CMakeFiles/lanshare.dir/settings.cpp.s
 
 CMakeFiles/lanshare.dir/singleinstance.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/singleinstance.cpp.o: ../singleinstance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lanshare.dir/singleinstance.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/singleinstance.cpp.o -c /home/user/test_code/singleinstance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lanshare.dir/singleinstance.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/singleinstance.cpp.o -c /home/user/test_code/cross-environment/singleinstance.cpp
 
 CMakeFiles/lanshare.dir/singleinstance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/singleinstance.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/singleinstance.cpp > CMakeFiles/lanshare.dir/singleinstance.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/singleinstance.cpp > CMakeFiles/lanshare.dir/singleinstance.cpp.i
 
 CMakeFiles/lanshare.dir/singleinstance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/singleinstance.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/singleinstance.cpp -o CMakeFiles/lanshare.dir/singleinstance.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/singleinstance.cpp -o CMakeFiles/lanshare.dir/singleinstance.cpp.s
 
 CMakeFiles/lanshare.dir/util.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/util.cpp.o: ../util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lanshare.dir/util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/util.cpp.o -c /home/user/test_code/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lanshare.dir/util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/util.cpp.o -c /home/user/test_code/cross-environment/util.cpp
 
 CMakeFiles/lanshare.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/util.cpp > CMakeFiles/lanshare.dir/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/util.cpp > CMakeFiles/lanshare.dir/util.cpp.i
 
 CMakeFiles/lanshare.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/util.cpp -o CMakeFiles/lanshare.dir/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/util.cpp -o CMakeFiles/lanshare.dir/util.cpp.s
 
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.o: ../ui/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lanshare.dir/ui/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.o -c /home/user/test_code/ui/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lanshare.dir/ui/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.o -c /home/user/test_code/cross-environment/ui/mainwindow.cpp
 
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/ui/mainwindow.cpp > CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/mainwindow.cpp > CMakeFiles/lanshare.dir/ui/mainwindow.cpp.i
 
 CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/ui/mainwindow.cpp -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/mainwindow.cpp -o CMakeFiles/lanshare.dir/ui/mainwindow.cpp.s
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.o: ../ui/receiverselectordialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.o -c /home/user/test_code/ui/receiverselectordialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.o -c /home/user/test_code/cross-environment/ui/receiverselectordialog.cpp
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/ui/receiverselectordialog.cpp > CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/receiverselectordialog.cpp > CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.i
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/ui/receiverselectordialog.cpp -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/receiverselectordialog.cpp -o CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.s
 
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.o: ../ui/aboutdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.o -c /home/user/test_code/ui/aboutdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.o -c /home/user/test_code/cross-environment/ui/aboutdialog.cpp
 
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/ui/aboutdialog.cpp > CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/aboutdialog.cpp > CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.i
 
 CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/ui/aboutdialog.cpp -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/aboutdialog.cpp -o CMakeFiles/lanshare.dir/ui/aboutdialog.cpp.s
 
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.o: ../ui/settingsdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.o -c /home/user/test_code/ui/settingsdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.o -c /home/user/test_code/cross-environment/ui/settingsdialog.cpp
 
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/ui/settingsdialog.cpp > CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/ui/settingsdialog.cpp > CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.i
 
 CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/ui/settingsdialog.cpp -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/ui/settingsdialog.cpp -o CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.o: ../transfer/devicebroadcaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.o -c /home/user/test_code/transfer/devicebroadcaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.o -c /home/user/test_code/cross-environment/transfer/devicebroadcaster.cpp
 
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/transfer/devicebroadcaster.cpp > CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/devicebroadcaster.cpp > CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/transfer/devicebroadcaster.cpp -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/devicebroadcaster.cpp -o CMakeFiles/lanshare.dir/transfer/devicebroadcaster.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.o: ../transfer/receiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lanshare.dir/transfer/receiver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.o -c /home/user/test_code/transfer/receiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lanshare.dir/transfer/receiver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.o -c /home/user/test_code/cross-environment/transfer/receiver.cpp
 
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/receiver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/transfer/receiver.cpp > CMakeFiles/lanshare.dir/transfer/receiver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/receiver.cpp > CMakeFiles/lanshare.dir/transfer/receiver.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/receiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/receiver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/transfer/receiver.cpp -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/receiver.cpp -o CMakeFiles/lanshare.dir/transfer/receiver.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/sender.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/sender.cpp.o: ../transfer/sender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lanshare.dir/transfer/sender.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/sender.cpp.o -c /home/user/test_code/transfer/sender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lanshare.dir/transfer/sender.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/sender.cpp.o -c /home/user/test_code/cross-environment/transfer/sender.cpp
 
 CMakeFiles/lanshare.dir/transfer/sender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/sender.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/transfer/sender.cpp > CMakeFiles/lanshare.dir/transfer/sender.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/sender.cpp > CMakeFiles/lanshare.dir/transfer/sender.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/sender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/sender.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/transfer/sender.cpp -o CMakeFiles/lanshare.dir/transfer/sender.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/sender.cpp -o CMakeFiles/lanshare.dir/transfer/sender.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.o: ../transfer/transfer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lanshare.dir/transfer/transfer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.o -c /home/user/test_code/transfer/transfer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lanshare.dir/transfer/transfer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.o -c /home/user/test_code/cross-environment/transfer/transfer.cpp
 
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/transfer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/transfer/transfer.cpp > CMakeFiles/lanshare.dir/transfer/transfer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/transfer.cpp > CMakeFiles/lanshare.dir/transfer/transfer.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/transfer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/transfer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/transfer/transfer.cpp -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/transfer.cpp -o CMakeFiles/lanshare.dir/transfer/transfer.cpp.s
 
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.o: ../transfer/transferserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/lanshare.dir/transfer/transferserver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.o -c /home/user/test_code/transfer/transferserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lanshare.dir/transfer/transferserver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.o -c /home/user/test_code/cross-environment/transfer/transferserver.cpp
 
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/transfer/transferserver.cpp > CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/transfer/transferserver.cpp > CMakeFiles/lanshare.dir/transfer/transferserver.cpp.i
 
 CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/transfer/transferserver.cpp -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/transfer/transferserver.cpp -o CMakeFiles/lanshare.dir/transfer/transferserver.cpp.s
 
 CMakeFiles/lanshare.dir/model/device.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/device.cpp.o: ../model/device.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/lanshare.dir/model/device.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/device.cpp.o -c /home/user/test_code/model/device.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lanshare.dir/model/device.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/device.cpp.o -c /home/user/test_code/cross-environment/model/device.cpp
 
 CMakeFiles/lanshare.dir/model/device.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/device.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/model/device.cpp > CMakeFiles/lanshare.dir/model/device.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/device.cpp > CMakeFiles/lanshare.dir/model/device.cpp.i
 
 CMakeFiles/lanshare.dir/model/device.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/device.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/model/device.cpp -o CMakeFiles/lanshare.dir/model/device.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/device.cpp -o CMakeFiles/lanshare.dir/model/device.cpp.s
 
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.o: ../model/devicelistmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.o -c /home/user/test_code/model/devicelistmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.o -c /home/user/test_code/cross-environment/model/devicelistmodel.cpp
 
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/model/devicelistmodel.cpp > CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/devicelistmodel.cpp > CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.i
 
 CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/model/devicelistmodel.cpp -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/devicelistmodel.cpp -o CMakeFiles/lanshare.dir/model/devicelistmodel.cpp.s
 
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.o: ../model/transferinfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/lanshare.dir/model/transferinfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.o -c /home/user/test_code/model/transferinfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/lanshare.dir/model/transferinfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.o -c /home/user/test_code/cross-environment/model/transferinfo.cpp
 
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/transferinfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/model/transferinfo.cpp > CMakeFiles/lanshare.dir/model/transferinfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/transferinfo.cpp > CMakeFiles/lanshare.dir/model/transferinfo.cpp.i
 
 CMakeFiles/lanshare.dir/model/transferinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/transferinfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/model/transferinfo.cpp -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/transferinfo.cpp -o CMakeFiles/lanshare.dir/model/transferinfo.cpp.s
 
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.o: ../model/transfertablemodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.o -c /home/user/test_code/model/transfertablemodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.o -c /home/user/test_code/cross-environment/model/transfertablemodel.cpp
 
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/model/transfertablemodel.cpp > CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/model/transfertablemodel.cpp > CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.i
 
 CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/model/transfertablemodel.cpp -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/model/transfertablemodel.cpp -o CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.s
 
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.o: CMakeFiles/lanshare.dir/flags.make
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.o: lanshare_autogen/EWIEGA46WW/qrc_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.o -c /home/user/test_code/build_cmake/lanshare_autogen/EWIEGA46WW/qrc_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.o -c /home/user/test_code/cross-environment/build_cmake/lanshare_autogen/EWIEGA46WW/qrc_res.cpp
 
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/build_cmake/lanshare_autogen/EWIEGA46WW/qrc_res.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/test_code/cross-environment/build_cmake/lanshare_autogen/EWIEGA46WW/qrc_res.cpp > CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.i
 
 CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/build_cmake/lanshare_autogen/EWIEGA46WW/qrc_res.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/test_code/cross-environment/build_cmake/lanshare_autogen/EWIEGA46WW/qrc_res.cpp -o CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.s
 
 # Object files for target lanshare
 lanshare_OBJECTS = \
@@ -375,11 +383,10 @@ lanshare: CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.o
 lanshare: CMakeFiles/lanshare.dir/lanshare_autogen/EWIEGA46WW/qrc_res.cpp.o
 lanshare: CMakeFiles/lanshare.dir/build.make
 lanshare: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-lanshare: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
 lanshare: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 lanshare: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 lanshare: CMakeFiles/lanshare.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/test_code/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable lanshare"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/test_code/cross-environment/build_cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable lanshare"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lanshare.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -391,7 +398,9 @@ CMakeFiles/lanshare.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/lanshare.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/lanshare.dir/clean
 
+CMakeFiles/lanshare.dir/depend: lanshare_setting_tw.qm
 CMakeFiles/lanshare.dir/depend: lanshare_autogen/EWIEGA46WW/qrc_res.cpp
-	cd /home/user/test_code/build_cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/test_code /home/user/test_code /home/user/test_code/build_cmake /home/user/test_code/build_cmake /home/user/test_code/build_cmake/CMakeFiles/lanshare.dir/DependInfo.cmake --color=$(COLOR)
+CMakeFiles/lanshare.dir/depend: ../languages/lanshare_setting_tw.ts
+	cd /home/user/test_code/cross-environment/build_cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/test_code/cross-environment /home/user/test_code/cross-environment /home/user/test_code/cross-environment/build_cmake /home/user/test_code/cross-environment/build_cmake /home/user/test_code/cross-environment/build_cmake/CMakeFiles/lanshare.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lanshare.dir/depend
 

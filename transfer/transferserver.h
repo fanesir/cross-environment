@@ -19,7 +19,7 @@
 #ifndef TRANSFERSERVER_H
 #define TRANSFERSERVER_H
 
-#include <QTcpServer>
+#include <QtNetwork/QTcpServer>
 #include <QObject>
 
 #include "receiver.h"

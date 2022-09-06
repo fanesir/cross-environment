@@ -21,7 +21,7 @@
 
 #include <QObject>
 #include <QTimer>
-#include <QtNetwork>
+#include <QtNetwork/QtNetwork>
 
 #include "model/device.h"
 

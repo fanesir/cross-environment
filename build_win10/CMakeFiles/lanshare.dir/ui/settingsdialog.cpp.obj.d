@@ -338,6 +338,5 @@ CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qstring.h \
  /home/user/test_code/cross-environment/model/device.h \
- ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QObject \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qobject.h

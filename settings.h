@@ -19,7 +19,7 @@
 #ifndef SETTINGS_H
 #define SETTINGS_H
 
-#include <QHostAddress>
+#include <QtNetwork/QHostAddress>
 #include <QString>
 
 #include "model/device.h"

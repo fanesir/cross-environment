@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "../languages/lanshare_setting_tw.ts"
   "CMakeFiles/lanshare_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/lanshare_autogen.dir/ParseCache.txt"
   "lanshare_autogen"
@@ -21,9 +22,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.o"
   "CMakeFiles/lanshare.dir/ui/settingsdialog.cpp.o"
   "CMakeFiles/lanshare.dir/util.cpp.o"
+  "CMakeFiles/lanshare_setting_tw.ts_lst_file"
   "lanshare"
   "lanshare.pdb"
   "lanshare_autogen/EWIEGA46WW/qrc_res.cpp"
+  "lanshare_setting_tw.qm"
 )
 
 # Per-language clean rules from dependency scanning.

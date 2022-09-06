@@ -1,3 +1,5 @@
 # Hashes of file build rules.
-a67159ad57e2ccd515e281dbd6ebf91d CMakeFiles/lanshare_autogen
-cebfbb9da6ae4e653c8ec82a734b8680 lanshare_autogen/EWIEGA46WW/qrc_res.cpp
+2e85de599f9e6020a97b63ba205fe826 ../languages/lanshare_setting_tw.ts
+cd9f9bacb5d80713b32197bdcd0bd76a CMakeFiles/lanshare_autogen
+4f6e8dd3f24825d6eb34d1c0d34642a7 lanshare_autogen/EWIEGA46WW/qrc_res.cpp
+fdb56c570dca35b3de8c3cc61b58e3bf lanshare_setting_tw.qm

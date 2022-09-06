@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lanshare_autogen"
+  "lanshare_autogen/include/ui/ui_settingsdialog.h"
   "lanshare_autogen/mocs_compilation.cpp"
 )
 

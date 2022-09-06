@@ -29,17 +29,17 @@ SettingsDialog::SettingsDialog(QWidget *parent) :
     ui(new Ui::SettingsDialog)
 {
     ui->setupUi(this);
-    assign();
 
 
-    translator_ = new QTranslator();
-    qApp->removeTranslator(translator_);
-    translator_->load("/home/user/test_code/cross-environment/build_win10/lanshare_setting_tw.qm");// /home/user/work/LAN-Share/src/lanshare_tw.qm
-    qApp->installTranslator(translator_);
 
+    //    translator_ = new QTranslator();
+    //    translator_->load("/home/user/test_code/cross-environment/languages/QtInternationalization_es.qm");// /home/user/work/LAN-Share/src/lanshare_tw.qm
+    //    qApp->installTranslator(translator_);
+    //    ui->retranslateUi(this);
 
-    ui->pushButton->setText(tr("Save"));//pushButton_2
-    ui->retranslateUi(this);
+    //    ui->pushButton->setText(tr("null"));//pushButton_2
+    //    assign();
+
 
 
 
@@ -81,8 +81,11 @@ void SettingsDialog::onSaveClicked()
 
 void SettingsDialog::onResetClicked()
 {
+
+
     Settings::instance()->reset();
     assign();
+
 }
 
 void SettingsDialog::onSelectDownDirClicked()

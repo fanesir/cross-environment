@@ -33,8 +33,11 @@ message(STATUS "QM_FILES=${QM_FILES}")
 
 
 add_executable(lanshare   main.cpp 
-settings.cpp 
-singleinstance.cpp 
+    ${WIN32_RESOURCES}
+    ${appicon}      
+    ${QM_FILES}
+   settings.cpp 
+   singleinstance.cpp 
 util.cpp 
 ui/mainwindow.cpp 
 ui/receiverselectordialog.cpp /
@@ -48,11 +51,9 @@ ui/receiverselectordialog.cpp /
     model/device.cpp /
     model/devicelistmodel.cpp /
     model/transferinfo.cpp /
-    model/transfertablemodel.cpp /     
-    ${WIN32_RESOURCES}
-    ${appicon}      
-    
-    ${QM_FILES}
+    model/transfertablemodel.cpp /
+    ui/settingsdialog.ui     
+
   
 )
 target_link_libraries(lanshare  Qt5::Widgets Qt5::Network Qt5::Core Qt5::Gui)

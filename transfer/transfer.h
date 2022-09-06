@@ -20,7 +20,7 @@
 #define TRANSFER_H
 
 #include <QFile>
-#include <QTcpSocket>
+#include <QtNetwork/QTcpSocket>
 #include <QObject>
 
 #include "model/device.h"

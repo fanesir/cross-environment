@@ -9,7 +9,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_aboutdialog.h" line="173"/>
         <location filename="../test_build/lanshare_autogen/include/ui_aboutdialog.h" line="173"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">關於</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.ui" line="73"/>
@@ -153,38 +153,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../build/first_cross_autogen/include/ui_mainwindow.h" line="85"/>
-        <location filename="../build/send_app_autogen/include/ui_mainwindow.h" line="85"/>
-        <location filename="../build/send_appII_autogen/include/ui_mainwindow.h" line="85"/>
-        <source>MainWindow</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../build/first_cross_autogen/include/ui_mainwindow.h" line="86"/>
-        <location filename="../build/send_app_autogen/include/ui_mainwindow.h" line="86"/>
-        <location filename="../build/send_appII_autogen/include/ui_mainwindow.h" line="86"/>
-        <source>PUT</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../build/first_cross_autogen/include/ui_mainwindow.h" line="87"/>
-        <location filename="../build/send_app_autogen/include/ui_mainwindow.h" line="87"/>
-        <location filename="../build/send_appII_autogen/include/ui_mainwindow.h" line="87"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;192.168.1.17&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../build/first_cross_autogen/include/ui_mainwindow.h" line="92"/>
-        <location filename="../build/send_app_autogen/include/ui_mainwindow.h" line="92"/>
-        <location filename="../build/send_appII_autogen/include/ui_mainwindow.h" line="92"/>
-        <source>SendMessage</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ui/mainwindow.cpp" line="120"/>
         <source>Confirm close</source>
         <translation type="unfinished"></translation>
@@ -207,13 +175,13 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../ui/mainwindow.cpp" line="589"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>傳送</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="606"/>
         <location filename="../ui/mainwindow.cpp" line="624"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>關於</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="607"/>
@@ -586,10 +554,10 @@ p, li { white-space: pre-wrap; }
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="443"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="443"/>
         <source>Save</source>
-        <translation>儲存</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/settingsdialog.cpp" line="94"/>
+        <location filename="../ui/settingsdialog.cpp" line="98"/>
         <source>Select a directory</source>
         <translation type="unfinished"></translation>
     </message>

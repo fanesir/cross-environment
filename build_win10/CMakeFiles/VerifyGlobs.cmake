@@ -5,8 +5,6 @@ cmake_policy(SET CMP0009 NEW)
 # _directory_contents at /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:78 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/user/test_code/cross-environment/*.c")
 set(OLD_GLOB
-  "/home/user/test_code/cross-environment/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c"
-  "/home/user/test_code/cross-environment/build/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c"
   "/home/user/test_code/cross-environment/build_cmake/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c"
   "/home/user/test_code/cross-environment/build_win10/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c"
   "/home/user/test_code/cross-environment/test_build/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c"
@@ -46,16 +44,6 @@ endif()
 # _directory_contents at /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:78 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/user/test_code/cross-environment/*.cpp")
 set(OLD_GLOB
-  "/home/user/test_code/cross-environment/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "/home/user/test_code/cross-environment/build/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "/home/user/test_code/cross-environment/build/first_cross_autogen/EWIEGA46WW/moc_mainwindow.cpp"
-  "/home/user/test_code/cross-environment/build/first_cross_autogen/mocs_compilation.cpp"
-  "/home/user/test_code/cross-environment/build/lanshare_autogen/EWIEGA46WW/moc_singleinstance.cpp"
-  "/home/user/test_code/cross-environment/build/lanshare_autogen/mocs_compilation.cpp"
-  "/home/user/test_code/cross-environment/build/send_appII_autogen/EWIEGA46WW/moc_mainwindow.cpp"
-  "/home/user/test_code/cross-environment/build/send_appII_autogen/mocs_compilation.cpp"
-  "/home/user/test_code/cross-environment/build/send_app_autogen/EWIEGA46WW/moc_mainwindow.cpp"
-  "/home/user/test_code/cross-environment/build/send_app_autogen/mocs_compilation.cpp"
   "/home/user/test_code/cross-environment/build_cmake/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/user/test_code/cross-environment/build_cmake/lanshare_autogen/3YJ5MMVV62/moc_devicebroadcaster.cpp"
   "/home/user/test_code/cross-environment/build_cmake/lanshare_autogen/3YJ5MMVV62/moc_transfer.cpp"
@@ -130,13 +118,6 @@ endif()
 # _directory_contents at /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:78 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/user/test_code/cross-environment/*.h")
 set(OLD_GLOB
-  "/home/user/test_code/cross-environment/build/first_cross_autogen/include/ui_mainwindow.h"
-  "/home/user/test_code/cross-environment/build/first_cross_autogen/moc_predefs.h"
-  "/home/user/test_code/cross-environment/build/lanshare_autogen/moc_predefs.h"
-  "/home/user/test_code/cross-environment/build/send_appII_autogen/include/ui_mainwindow.h"
-  "/home/user/test_code/cross-environment/build/send_appII_autogen/moc_predefs.h"
-  "/home/user/test_code/cross-environment/build/send_app_autogen/include/ui_mainwindow.h"
-  "/home/user/test_code/cross-environment/build/send_app_autogen/moc_predefs.h"
   "/home/user/test_code/cross-environment/build_cmake/lanshare_autogen/include/ui_aboutdialog.h"
   "/home/user/test_code/cross-environment/build_cmake/lanshare_autogen/include/ui_mainwindow.h"
   "/home/user/test_code/cross-environment/build_cmake/lanshare_autogen/include/ui_receiverselectordialog.h"

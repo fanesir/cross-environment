@@ -1,3 +1,0 @@
-/usr/bin/cmake -E remove -f CMakeFiles/helloWord.dir/objects.a
-/home/user/mxe/usr/bin/x86_64-w64-mingw32.static-ar cr CMakeFiles/helloWord.dir/objects.a @CMakeFiles/helloWord.dir/objects1.rsp
-/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/x86_64-w64-mingw32.static-g++ -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles/helloWord.dir/objects.a -Wl,--no-whole-archive  -o helloWord.exe -Wl,--out-implib,libhelloWord.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/helloWord.dir/linklibs.rsp

@@ -29,16 +29,20 @@ SettingsDialog::SettingsDialog(QWidget *parent) :
     ui(new Ui::SettingsDialog)
 {
     ui->setupUi(this);
+assign();
+//    translator_ = new QTranslator();
 
 
 
-    //    translator_ = new QTranslator();
-    //    translator_->load("/home/user/test_code/cross-environment/languages/QtInternationalization_es.qm");// /home/user/work/LAN-Share/src/lanshare_tw.qm
-    //    qApp->installTranslator(translator_);
-    //    ui->retranslateUi(this);
+//    if(translator_->load("/home/user/test_code/cross-environmentv/languages/QtInternationalization_es.qm")){
+//        qApp->installTranslator(translator_);
+//        ui->retranslateUi(this);
+//        ui->pushButton->setText(tr("null"));//pushButton_2
+//        qDebug() << "load ts is work" ;
+//    }else{
+//     qDebug() << "load ts is not work" ;
+//    }
 
-    //    ui->pushButton->setText(tr("null"));//pushButton_2
-    //    assign();
 
 
 

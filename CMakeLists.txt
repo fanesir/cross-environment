@@ -28,7 +28,7 @@ set(TS_FILES
 
 
 
-qt5_create_translation(QM_FILES  ${CMAKE_SOURCE_DIR} ${TS_FILES})
+qt5_create_translation( QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 message(STATUS "QM_FILES=${QM_FILES}")
 
 

@@ -19,5 +19,7 @@
         <file>img/systray-icon.png</file>
         <file>img/file.png</file>
         <file>img/folder.png</file>
+        <file>img/folder.png</file>
+        <file>languages/lanshare_setting_tw.qm</file>
     </qresource>
 </RCC>

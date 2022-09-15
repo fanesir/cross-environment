@@ -87,8 +87,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->receiverTableView->setColumnWidth((int)TransferTableModel::Column::FileName, 340);
     ui->receiverTableView->setColumnWidth((int)TransferTableModel::Column::Progress, 160);
 
-    QString a = "QT Version：";
-    this->setWindowTitle(a+qVersion());
+    QString QT_V_str = tr("QT Version：");
+    this->setWindowTitle(QT_V_str+qVersion());
 
     //static const string RECTANGLE;
 

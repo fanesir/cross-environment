@@ -77,7 +77,6 @@ lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../res.qrc
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: CMakeFiles/lanshare_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../text/credits.html
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../text/gpl-3.0.txt
-lanshare_autogen/EWIEGA46WW/qrc_res.cpp: lanshare_setting_tw.qm
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/clear.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/refresh.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/pause.png
@@ -96,6 +95,7 @@ lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/systray-icon.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/windows.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/resume.png
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../img/cancel.png
+lanshare_autogen/EWIEGA46WW/qrc_res.cpp: ../languages/lanshare_setting_tw.qm
 lanshare_autogen/EWIEGA46WW/qrc_res.cpp: /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/test_code/cross-environment/build_win10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for res.qrc"
 	/home/user/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_autorcc /home/user/test_code/cross-environment/build_win10/CMakeFiles/lanshare_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Release

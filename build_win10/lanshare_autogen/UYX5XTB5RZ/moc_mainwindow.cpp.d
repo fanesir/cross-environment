@@ -227,6 +227,7 @@
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QStringList \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTimer \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QUrl \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVariant \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVector \

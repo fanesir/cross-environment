@@ -135,6 +135,12 @@ private:
     QAction* mRecPauseAction;
     QAction* mRecResumeAction;
     QAction* mRecCancelAction;
+
+    QTranslator *translator_;
+    QString setting_str;
+    QString send_str;
+    QString sendfiles;
+    QString sendfolders;
 };
 
 #endif // MAINWINDOW_H

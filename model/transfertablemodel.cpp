@@ -19,10 +19,20 @@
 
 #include "transfertablemodel.h"
 #include "util.h"
-
+#include <QApplication>
 TransferTableModel::TransferTableModel(QObject *parent) :
     QAbstractTableModel(parent)
 {
+
+    translator_ = new QTranslator();
+    translator_->load(":/languages/lanshare_setting_tw.qm");
+    qApp->installTranslator(translator_);
+    peer = tr("Peer");
+    Filepath=tr("Filepath");
+    Size = tr("Size");
+    Status = tr("Status");
+    Progress=tr("Progress");
+
 }
 
 TransferTableModel::~TransferTableModel()
@@ -74,14 +84,14 @@ QVariant TransferTableModel::data(const QModelIndex &index, int role) const
 QVariant TransferTableModel::headerData(int section, Qt::Orientation orientation, int role) const
 {
     if (orientation == Qt::Horizontal && role == Qt::DisplayRole) {
-        Column col = (Column) section;
+        Column col = (Column) section;        
         switch (col) {
-        case Column::Peer : return tr("Peer");
-        case Column::FileName : return tr("File path");
-        case Column::FileSize : return tr("Size");
-        case Column::State : return tr("Status");
-        case Column::Progress : return tr("Progress");
-        default : break; 
+        case Column::Peer : return peer;
+        case Column::FileName : return Filepath;
+        case Column::FileSize : return Size;
+        case Column::State : return Status;
+        case Column::Progress : return Progress;
+        default : break;
         }
     }
 

@@ -37,12 +37,31 @@
 #include "util.h"
 #include "transfer/sender.h"
 #include "transfer/receiver.h"
-
+#include <QApplication>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    translator_ = new QTranslator();
+    if(translator_->load(":/languages/lanshare_setting_tw.qm")){
+        qApp->installTranslator(translator_);
+        ui->retranslateUi(this);
+        ui->label->setText(tr("Uploads"));
+        ui->label_2->setText(tr("Downloads"));
+        ui->cancelSenderBtn->setText(tr("Cancel"));
+        ui->cancelReceiverBtn->setText(tr("Cancel"));
+        send_str=tr("Send");
+        setting_str = tr("setting");
+        sendfiles = tr("Send files...");
+        sendfolders=tr("Send folders...");
+        qDebug() << "load ts is work "+send_str+setting_str ;
+
+    }else{
+     qDebug() << "load ts is not work" ;
+    }
+
     setupActions();
     setupToolbar();
     setupSystrayIcon();
@@ -68,7 +87,12 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->receiverTableView->setColumnWidth((int)TransferTableModel::Column::FileName, 340);
     ui->receiverTableView->setColumnWidth((int)TransferTableModel::Column::Progress, 160);
 
-    connectSignals();
+
+    //static const string RECTANGLE;
+
+
+
+connectSignals();
 }
 
 MainWindow::~MainWindow()
@@ -579,6 +603,7 @@ void MainWindow::quitApp()
 
 void MainWindow::setupToolbar()
 {
+
     QMenu* sendMenu = new QMenu();
     sendMenu->addAction(mSendFilesAction);
     sendMenu->addAction(mSendFolderAction);
@@ -586,7 +611,8 @@ void MainWindow::setupToolbar()
     QToolButton* sendBtn = new QToolButton();
     sendBtn->setPopupMode(QToolButton::InstantPopup);
     sendBtn->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
-    sendBtn->setText(tr("Send"));
+
+    sendBtn->setText(send_str);
     sendBtn->setIcon(QIcon(":/img/send.png"));
     sendBtn->setMenu(sendMenu);
     ui->mainToolBar->addWidget(sendBtn);
@@ -615,11 +641,11 @@ void MainWindow::setupActions()
 {
     mShowMainWindowAction = new QAction(tr("Show Main Window"), this);
     connect(mShowMainWindowAction, &QAction::triggered, this, &MainWindow::onShowMainWindowTriggered);
-    mSendFilesAction = new QAction(QIcon(":/img/file.png"), tr("Send files..."), this);
+    mSendFilesAction = new QAction(QIcon(":/img/file.png"), sendfiles, this);
     connect(mSendFilesAction, &QAction::triggered, this, &MainWindow::onSendFilesActionTriggered);
-    mSendFolderAction = new QAction(QIcon(":/img/folder.png"), tr("Send folders..."), this);
+    mSendFolderAction = new QAction(QIcon(":/img/folder.png"), sendfolders, this);
     connect(mSendFolderAction, &QAction::triggered, this, &MainWindow::onSendFolderActionTriggered);
-    mSettingsAction = new QAction(QIcon(":/img/settings.png"), tr("Settings"), this);
+    mSettingsAction = new QAction(QIcon(":/img/settings.png"), setting_str, this);
     connect(mSettingsAction, &QAction::triggered, this, &MainWindow::onSettingsActionTriggered);
     mAboutAction = new QAction(QIcon(":/img/about.png"), tr("About"), this);
     mAboutAction->setMenuRole(QAction::AboutRole);

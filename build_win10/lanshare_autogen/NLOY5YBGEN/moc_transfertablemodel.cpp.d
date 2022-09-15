@@ -197,6 +197,7 @@
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractTableModel \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QFile \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QObject \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qabstractitemmodel.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qalgorithms.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qarraydata.h \
@@ -252,6 +253,7 @@
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsystemdetection.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtcore-config.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtextstream.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvariant.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvarlengtharray.h \

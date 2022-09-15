@@ -3972,6 +3972,8 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: lanshare_auto
   ../model/device.h \
   ../model/transferinfo.h \
   ../model/transferinfo.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   lanshare_autogen/EWIEGA46WW/moc_singleinstance.cpp \
   ../singleinstance.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QLocalServer \
@@ -4209,7 +4211,6 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: lanshare_auto
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h \
@@ -4348,8 +4349,7 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj: lanshare_auto
   lanshare_autogen/UYX5XTB5RZ/moc_receiverselectordialog.cpp \
   ../ui/receiverselectordialog.h \
   lanshare_autogen/UYX5XTB5RZ/moc_settingsdialog.cpp \
-  ../ui/settingsdialog.h \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
+  ../ui/settingsdialog.h
 
 CMakeFiles/lanshare.dir/main.cpp.obj: ../main.cpp \
   ../ui/mainwindow.h \
@@ -4647,6 +4647,8 @@ CMakeFiles/lanshare.dir/main.cpp.obj: ../main.cpp \
   ../model/transferinfo.h \
   ../model/device.h \
   ../model/transferinfo.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   ../model/devicelistmodel.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractListModel \
   ../transfer/devicebroadcaster.h \
@@ -4877,7 +4879,6 @@ CMakeFiles/lanshare.dir/main.cpp.obj: ../main.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h \
@@ -4975,7 +4976,6 @@ CMakeFiles/lanshare.dir/main.cpp.obj: ../main.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qinputmethod.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QtDebug \
   ../settings.h \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
   ../model/device.h \
   ../singleinstance.h \
@@ -6328,6 +6328,8 @@ CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: ../model/transfertable
   ../model/transferinfo.h \
   ../model/device.h \
   ../model/transferinfo.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   ../util.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qstring.h \
@@ -6338,7 +6340,22 @@ CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: ../model/transfertable
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVector \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvector.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QPair \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpair.h
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpair.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QApplication \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qapplication.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qtwidgetsglobal.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qtwidgets-config.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qcoreapplication.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qcoreevent.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qeventloop.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qwindowdefs.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qwindowdefs_win.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpoint.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsize.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qmargins.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qcursor.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qguiapplication.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qinputmethod.h
 
 CMakeFiles/lanshare.dir/settings.cpp.obj: ../settings.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QNetworkInterface \
@@ -9490,6 +9507,8 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: ../ui/mainwindow.cpp \
   ../model/transferinfo.h \
   ../model/device.h \
   ../model/transferinfo.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   ../model/devicelistmodel.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractListModel \
   ../transfer/devicebroadcaster.h \
@@ -9712,7 +9731,6 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: ../ui/mainwindow.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h \
@@ -9839,9 +9857,7 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: ../ui/mainwindow.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h \
   ../ui/settingsdialog.h \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
   ../settings.h \
-  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
   ../model/device.h \
   ../ui/aboutdialog.h \
@@ -9850,7 +9866,8 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: ../ui/mainwindow.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVector \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QPair \
   ../transfer/sender.h \
-  ../transfer/receiver.h
+  ../transfer/receiver.h \
+  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QApplication
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj: ../ui/receiverselectordialog.cpp \
   /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QMessageBox \
@@ -11969,6 +11986,12 @@ lanshare_autogen/include/ui_settingsdialog.h:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qpalette.h:
 
+/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator:
+
+/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qabstracteventdispatcher.h:
+
+/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h:
+
 lanshare_autogen/EWIEGA46WW/moc_singleinstance.cpp:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/qsslpresharedkeyauthenticator.h:
@@ -12010,10 +12033,6 @@ lanshare_autogen/EWIEGA46WW/moc_singleinstance.cpp:
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qabstractanimation.h:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QCryptographicHash:
-
-/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qabstracteventdispatcher.h:
-
-/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsignalmapper.h:
 
@@ -12254,8 +12273,6 @@ lanshare_autogen/NLOY5YBGEN/moc_transfertablemodel.cpp:
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractTableModel:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h:
-
-/home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h:
 
 /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qlinkedlist.h:
 

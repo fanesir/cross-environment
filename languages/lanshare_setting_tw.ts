@@ -9,7 +9,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_aboutdialog.h" line="173"/>
         <location filename="../test_build/lanshare_autogen/include/ui_aboutdialog.h" line="173"/>
         <source>About</source>
-        <translation type="unfinished">關於</translation>
+        <translation>關於</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.ui" line="73"/>
@@ -75,8 +75,9 @@
         <location filename="../build_cmake/lanshare_autogen/include/ui_mainwindow.h" line="276"/>
         <location filename="../build_win10/lanshare_autogen/include/ui_mainwindow.h" line="276"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="276"/>
+        <location filename="../ui/mainwindow.cpp" line="51"/>
         <source>Uploads</source>
-        <translation type="unfinished"></translation>
+        <translation>上傳</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="79"/>
@@ -87,8 +88,8 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_mainwindow.h" line="296"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="278"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="296"/>
-        <location filename="../ui/mainwindow.cpp" line="643"/>
-        <location filename="../ui/mainwindow.cpp" line="660"/>
+        <location filename="../ui/mainwindow.cpp" line="669"/>
+        <location filename="../ui/mainwindow.cpp" line="686"/>
         <source>Resume</source>
         <translation type="unfinished"></translation>
     </message>
@@ -101,8 +102,8 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_mainwindow.h" line="300"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="282"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="300"/>
-        <location filename="../ui/mainwindow.cpp" line="641"/>
-        <location filename="../ui/mainwindow.cpp" line="658"/>
+        <location filename="../ui/mainwindow.cpp" line="667"/>
+        <location filename="../ui/mainwindow.cpp" line="684"/>
         <source>Pause</source>
         <translation type="unfinished"></translation>
     </message>
@@ -127,10 +128,12 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_mainwindow.h" line="306"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="288"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="306"/>
-        <location filename="../ui/mainwindow.cpp" line="645"/>
-        <location filename="../ui/mainwindow.cpp" line="662"/>
+        <location filename="../ui/mainwindow.cpp" line="53"/>
+        <location filename="../ui/mainwindow.cpp" line="54"/>
+        <location filename="../ui/mainwindow.cpp" line="671"/>
+        <location filename="../ui/mainwindow.cpp" line="688"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="154"/>
@@ -149,101 +152,110 @@
         <location filename="../build_cmake/lanshare_autogen/include/ui_mainwindow.h" line="294"/>
         <location filename="../build_win10/lanshare_autogen/include/ui_mainwindow.h" line="294"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="294"/>
+        <location filename="../ui/mainwindow.cpp" line="52"/>
         <source>Downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>下載</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="120"/>
+        <location filename="../ui/mainwindow.cpp" line="144"/>
         <source>Confirm close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="121"/>
-        <source>You are about to close &amp; abort all transfers. Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <source>Confirm Uploads-</source>
+        <translation type="vanished">上傳</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="208"/>
-        <source>Select files</source>
-        <translation type="unfinished"></translation>
+        <source>Confirm Downloads-</source>
+        <translation type="vanished">下載</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="551"/>
-        <source>Delete</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="589"/>
+        <location filename="../ui/mainwindow.cpp" line="55"/>
         <source>Send</source>
         <translation>傳送</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="606"/>
-        <location filename="../ui/mainwindow.cpp" line="624"/>
+        <location filename="../ui/mainwindow.cpp" line="56"/>
+        <source>setting</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="57"/>
+        <source>Send files...</source>
+        <translation>傳送檔案</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="58"/>
+        <source>Send folders...</source>
+        <translation>傳送資料夾</translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="145"/>
+        <source>You are about to close &amp; abort all transfers. Do you want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="232"/>
+        <source>Select files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="575"/>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="632"/>
+        <location filename="../ui/mainwindow.cpp" line="650"/>
         <source>About</source>
         <translation>關於</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="607"/>
+        <location filename="../ui/mainwindow.cpp" line="633"/>
         <source>About this program</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="616"/>
+        <location filename="../ui/mainwindow.cpp" line="642"/>
         <source>Show Main Window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="618"/>
-        <source>Send files...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="620"/>
-        <source>Send folders...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="622"/>
-        <source>Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="627"/>
+        <location filename="../ui/mainwindow.cpp" line="653"/>
         <source>About Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>關於 QT</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="630"/>
+        <location filename="../ui/mainwindow.cpp" line="656"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="633"/>
-        <location filename="../ui/mainwindow.cpp" line="648"/>
+        <location filename="../ui/mainwindow.cpp" line="659"/>
+        <location filename="../ui/mainwindow.cpp" line="674"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="635"/>
-        <location filename="../ui/mainwindow.cpp" line="650"/>
+        <location filename="../ui/mainwindow.cpp" line="661"/>
+        <location filename="../ui/mainwindow.cpp" line="676"/>
         <source>Open folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="637"/>
-        <location filename="../ui/mainwindow.cpp" line="652"/>
+        <location filename="../ui/mainwindow.cpp" line="663"/>
+        <location filename="../ui/mainwindow.cpp" line="678"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="639"/>
-        <location filename="../ui/mainwindow.cpp" line="656"/>
+        <location filename="../ui/mainwindow.cpp" line="665"/>
+        <location filename="../ui/mainwindow.cpp" line="682"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="654"/>
+        <location filename="../ui/mainwindow.cpp" line="680"/>
         <source>Delete from disk</source>
         <translation type="unfinished"></translation>
     </message>
@@ -304,7 +316,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_receiverselectordialog.h" line="139"/>
         <location filename="../test_build/lanshare_autogen/include/ui_receiverselectordialog.h" line="139"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">取消</translation>
     </message>
     <message>
         <location filename="../ui/receiverselectordialog.ui" line="136"/>
@@ -312,7 +324,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_receiverselectordialog.h" line="140"/>
         <location filename="../test_build/lanshare_autogen/include/ui_receiverselectordialog.h" line="140"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">傳送</translation>
     </message>
     <message>
         <location filename="../ui/receiverselectordialog.cpp" line="78"/>
@@ -346,7 +358,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="414"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="414"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="40"/>
@@ -354,7 +366,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="430"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="430"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>一般</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="46"/>
@@ -362,7 +374,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="415"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="415"/>
         <source>Profile</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">基本資料</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="54"/>
@@ -370,7 +382,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="416"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="416"/>
         <source>Id:</source>
-        <translation type="unfinished"></translation>
+        <translation>識別</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="73"/>
@@ -386,7 +398,7 @@
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="419"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="421"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="83"/>
@@ -394,7 +406,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="418"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="418"/>
         <source>Ip Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>IP 位置</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="161"/>
@@ -402,7 +414,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="422"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="422"/>
         <source>OS Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>作業系統</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="171"/>
@@ -410,7 +422,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="423"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="423"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>電腦名稱</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="186"/>
@@ -418,7 +430,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="424"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="424"/>
         <source>Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="194"/>
@@ -426,7 +438,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="425"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="425"/>
         <source>Download Dir:</source>
-        <translation type="unfinished"></translation>
+        <translation>下載資料夾</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="222"/>
@@ -434,7 +446,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="426"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="426"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="237"/>
@@ -442,7 +454,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="427"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="427"/>
         <source>Behavior</source>
-        <translation type="unfinished"></translation>
+        <translation>行為</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="246"/>
@@ -450,7 +462,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="428"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="428"/>
         <source>Overwrite existing file</source>
-        <translation type="unfinished"></translation>
+        <translation>覆寫檔案</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="258"/>
@@ -458,7 +470,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="429"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="429"/>
         <source>Max. Current Transfers:</source>
-        <translation type="unfinished"></translation>
+        <translation>當下最大傳輸檔案數</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="310"/>
@@ -466,7 +478,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="440"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="440"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>網路</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="316"/>
@@ -474,7 +486,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="431"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="431"/>
         <source>Broadcast</source>
-        <translation type="unfinished"></translation>
+        <translation>廣播</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="326"/>
@@ -482,7 +494,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="432"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="432"/>
         <source>Broadcast Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>廣播埠</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="343"/>
@@ -490,7 +502,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="433"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="433"/>
         <source>Broadcast Interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>廣播間隔</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="353"/>
@@ -498,7 +510,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="434"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="434"/>
         <source> ms</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="390"/>
@@ -506,7 +518,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="435"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="435"/>
         <source>Transfer</source>
-        <translation type="unfinished"></translation>
+        <translation>傳送</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="398"/>
@@ -514,7 +526,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="436"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="436"/>
         <source>Transfer Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>傳送埠</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="432"/>
@@ -522,7 +534,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="437"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="437"/>
         <source>Buffer Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>廣播量</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="442"/>
@@ -530,7 +542,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="438"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="438"/>
         <source> KB</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="495"/>
@@ -538,7 +550,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="441"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="441"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>重設</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="515"/>
@@ -546,7 +558,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="442"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="442"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.ui" line="522"/>
@@ -554,7 +566,12 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_settingsdialog.h" line="443"/>
         <location filename="../test_build/lanshare_autogen/include/ui_settingsdialog.h" line="443"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <location filename="../ui/settingsdialog.cpp" line="40"/>
+        <source>null</source>
+        <translation>儲存</translation>
     </message>
     <message>
         <location filename="../ui/settingsdialog.cpp" line="98"/>
@@ -565,62 +582,62 @@
 <context>
     <name>TransferTableModel</name>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="79"/>
+        <location filename="../model/transfertablemodel.cpp" line="30"/>
         <source>Peer</source>
-        <translation type="unfinished"></translation>
+        <translation>傳送點</translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="80"/>
-        <source>File path</source>
-        <translation type="unfinished"></translation>
+        <location filename="../model/transfertablemodel.cpp" line="31"/>
+        <source>Filepath</source>
+        <translation>路徑</translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="81"/>
+        <location filename="../model/transfertablemodel.cpp" line="32"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案大小</translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="82"/>
+        <location filename="../model/transfertablemodel.cpp" line="33"/>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>狀態</translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="83"/>
+        <location filename="../model/transfertablemodel.cpp" line="34"/>
         <source>Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>進度</translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="167"/>
+        <location filename="../model/transfertablemodel.cpp" line="177"/>
         <source>Idle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="168"/>
+        <location filename="../model/transfertablemodel.cpp" line="178"/>
         <source>Waiting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="169"/>
+        <location filename="../model/transfertablemodel.cpp" line="179"/>
         <source>Disconnected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="170"/>
+        <location filename="../model/transfertablemodel.cpp" line="180"/>
         <source>Paused</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="171"/>
+        <location filename="../model/transfertablemodel.cpp" line="181"/>
         <source>Cancelled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="172"/>
+        <location filename="../model/transfertablemodel.cpp" line="182"/>
         <source>Transfering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/transfertablemodel.cpp" line="173"/>
+        <location filename="../model/transfertablemodel.cpp" line="183"/>
         <source>Finish</source>
         <translation type="unfinished"></translation>
     </message>

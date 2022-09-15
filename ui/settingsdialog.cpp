@@ -30,18 +30,18 @@ SettingsDialog::SettingsDialog(QWidget *parent) :
 {
     ui->setupUi(this);
 assign();
-//    translator_ = new QTranslator();
 
 
 
-//    if(translator_->load("/home/user/test_code/cross-environmentv/languages/QtInternationalization_es.qm")){
-//        qApp->installTranslator(translator_);
-//        ui->retranslateUi(this);
-//        ui->pushButton->setText(tr("null"));//pushButton_2
-//        qDebug() << "load ts is work" ;
-//    }else{
-//     qDebug() << "load ts is not work" ;
-//    }
+    translator_ = new QTranslator();
+    if(translator_->load(":/languages/lanshare_setting_tw.qm")){
+        qApp->installTranslator(translator_);
+        ui->retranslateUi(this);
+        ui->pushButton->setText(tr("null"));//pushButton_2
+        qDebug() << "load ts is work" ;
+    }else{
+     qDebug() << "load ts is not work" ;
+    }
 
 
 

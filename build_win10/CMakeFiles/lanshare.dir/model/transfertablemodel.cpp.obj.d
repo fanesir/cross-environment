@@ -260,6 +260,8 @@ CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: \
  /home/user/test_code/cross-environment/model/transferinfo.h \
  /home/user/test_code/cross-environment/model/device.h \
  /home/user/test_code/cross-environment/model/transferinfo.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
  /home/user/test_code/cross-environment/util.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qstring.h \
@@ -270,4 +272,19 @@ CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVector \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvector.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QPair \
- ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpair.h
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpair.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QApplication \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qapplication.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qtwidgetsglobal.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qtwidgets-config.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qcoreapplication.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qcoreevent.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qeventloop.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qwindowdefs.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qwindowdefs_win.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpoint.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsize.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qmargins.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qcursor.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qguiapplication.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qinputmethod.h

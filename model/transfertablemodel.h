@@ -26,7 +26,7 @@
 
 #include "transfer/transfer.h"
 #include "transferinfo.h"
-
+#include <QTranslator>
 class TransferTableModel : public QAbstractTableModel
 {
     Q_OBJECT
@@ -58,6 +58,13 @@ private:
     QColor getStateColor(TransferState state) const;
 
     QVector<Transfer*> mTransfers;
+    QTranslator *translator_;
+
+    QString peer;
+    QString Filepath;
+    QString Size;
+    QString Status;
+    QString Progress;
 
 };
 

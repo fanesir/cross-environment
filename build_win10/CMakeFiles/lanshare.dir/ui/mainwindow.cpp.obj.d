@@ -342,6 +342,8 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: \
  /home/user/test_code/cross-environment/model/transferinfo.h \
  /home/user/test_code/cross-environment/model/device.h \
  /home/user/test_code/cross-environment/model/transferinfo.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
  /home/user/test_code/cross-environment/model/devicelistmodel.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractListModel \
  /home/user/test_code/cross-environment/transfer/devicebroadcaster.h \
@@ -564,7 +566,6 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h \
- ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h \
@@ -691,9 +692,7 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h \
  /home/user/test_code/cross-environment/ui/settingsdialog.h \
- ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
  /home/user/test_code/cross-environment/settings.h \
- ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
  /home/user/test_code/cross-environment/model/device.h \
  /home/user/test_code/cross-environment/ui/aboutdialog.h \
@@ -702,4 +701,5 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QVector \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QPair \
  /home/user/test_code/cross-environment/transfer/sender.h \
- /home/user/test_code/cross-environment/transfer/receiver.h
+ /home/user/test_code/cross-environment/transfer/receiver.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QApplication

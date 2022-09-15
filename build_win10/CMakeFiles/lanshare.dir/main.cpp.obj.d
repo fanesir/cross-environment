@@ -295,6 +295,8 @@ CMakeFiles/lanshare.dir/main.cpp.obj: \
  /home/user/test_code/cross-environment/model/transferinfo.h \
  /home/user/test_code/cross-environment/model/device.h \
  /home/user/test_code/cross-environment/model/transferinfo.h \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator \
+ ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
  /home/user/test_code/cross-environment/model/devicelistmodel.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractListModel \
  /home/user/test_code/cross-environment/transfer/devicebroadcaster.h \
@@ -525,7 +527,6 @@ CMakeFiles/lanshare.dir/main.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h \
- ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h \
@@ -623,7 +624,6 @@ CMakeFiles/lanshare.dir/main.cpp.obj: \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qinputmethod.h \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QtDebug \
  /home/user/test_code/cross-environment/settings.h \
- ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress \
  ../../../mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString \
  /home/user/test_code/cross-environment/model/device.h \
  /home/user/test_code/cross-environment/singleinstance.h \

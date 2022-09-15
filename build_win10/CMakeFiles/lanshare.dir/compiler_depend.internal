@@ -3989,6 +3989,8 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj
  /home/user/test_code/cross-environment/model/device.h
  /home/user/test_code/cross-environment/model/transferinfo.h
  /home/user/test_code/cross-environment/model/transferinfo.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/EWIEGA46WW/moc_singleinstance.cpp
  /home/user/test_code/cross-environment/singleinstance.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QLocalServer
@@ -4226,7 +4228,6 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h
- /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h
@@ -4366,7 +4367,6 @@ CMakeFiles/lanshare.dir/lanshare_autogen/mocs_compilation.cpp.obj
  /home/user/test_code/cross-environment/ui/receiverselectordialog.h
  /home/user/test_code/cross-environment/build_win10/lanshare_autogen/UYX5XTB5RZ/moc_settingsdialog.cpp
  /home/user/test_code/cross-environment/ui/settingsdialog.h
- /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
 
 CMakeFiles/lanshare.dir/main.cpp.obj
  /home/user/test_code/cross-environment/main.cpp
@@ -4665,6 +4665,8 @@ CMakeFiles/lanshare.dir/main.cpp.obj
  /home/user/test_code/cross-environment/model/transferinfo.h
  /home/user/test_code/cross-environment/model/device.h
  /home/user/test_code/cross-environment/model/transferinfo.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/test_code/cross-environment/model/devicelistmodel.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractListModel
  /home/user/test_code/cross-environment/transfer/devicebroadcaster.h
@@ -4895,7 +4897,6 @@ CMakeFiles/lanshare.dir/main.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h
- /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h
@@ -4993,7 +4994,6 @@ CMakeFiles/lanshare.dir/main.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qinputmethod.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QtDebug
  /home/user/test_code/cross-environment/settings.h
- /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString
  /home/user/test_code/cross-environment/model/device.h
  /home/user/test_code/cross-environment/singleinstance.h
@@ -6350,6 +6350,8 @@ CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj
  /home/user/test_code/cross-environment/model/transferinfo.h
  /home/user/test_code/cross-environment/model/device.h
  /home/user/test_code/cross-environment/model/transferinfo.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/test_code/cross-environment/util.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qstring.h
@@ -6361,6 +6363,21 @@ CMakeFiles/lanshare.dir/model/transfertablemodel.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qvector.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QPair
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpair.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QApplication
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qapplication.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qtwidgetsglobal.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qtwidgets-config.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qcoreapplication.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qcoreevent.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qeventloop.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qwindowdefs.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qwindowdefs_win.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qpoint.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qsize.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qmargins.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qcursor.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qguiapplication.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtGui/qinputmethod.h
 
 CMakeFiles/lanshare.dir/settings.cpp.obj
  /home/user/test_code/cross-environment/settings.cpp
@@ -9521,6 +9538,8 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj
  /home/user/test_code/cross-environment/model/transferinfo.h
  /home/user/test_code/cross-environment/model/device.h
  /home/user/test_code/cross-environment/model/transferinfo.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/test_code/cross-environment/model/devicelistmodel.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QAbstractListModel
  /home/user/test_code/cross-environment/transfer/devicebroadcaster.h
@@ -9743,7 +9762,6 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qthreadstorage.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimeline.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtimezone.h
- /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtranslator.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtransposeproxymodel.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypeinfo.h
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/qtypetraits.h
@@ -9870,9 +9888,7 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QDialog
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/qdialog.h
  /home/user/test_code/cross-environment/ui/settingsdialog.h
- /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QTranslator
  /home/user/test_code/cross-environment/settings.h
- /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtNetwork/QHostAddress
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QString
  /home/user/test_code/cross-environment/model/device.h
  /home/user/test_code/cross-environment/ui/aboutdialog.h
@@ -9882,6 +9898,7 @@ CMakeFiles/lanshare.dir/ui/mainwindow.cpp.obj
  /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtCore/QPair
  /home/user/test_code/cross-environment/transfer/sender.h
  /home/user/test_code/cross-environment/transfer/receiver.h
+ /home/user/mxe/usr/x86_64-w64-mingw32.static/qt5/include/QtWidgets/QApplication
 
 CMakeFiles/lanshare.dir/ui/receiverselectordialog.cpp.obj
  /home/user/test_code/cross-environment/ui/receiverselectordialog.cpp

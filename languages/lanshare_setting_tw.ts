@@ -41,7 +41,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_aboutdialog.h" line="179"/>
         <location filename="../test_build/lanshare_autogen/include/ui_aboutdialog.h" line="179"/>
         <source>Credits</source>
-        <translation type="unfinished"></translation>
+        <translation>來源</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.ui" line="194"/>
@@ -49,7 +49,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_aboutdialog.h" line="180"/>
         <location filename="../test_build/lanshare_autogen/include/ui_aboutdialog.h" line="180"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>執照</translation>
     </message>
     <message>
         <location filename="../ui/aboutdialog.ui" line="232"/>
@@ -57,7 +57,7 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_aboutdialog.h" line="181"/>
         <location filename="../test_build/lanshare_autogen/include/ui_aboutdialog.h" line="181"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
@@ -88,10 +88,10 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_mainwindow.h" line="296"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="278"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="296"/>
-        <location filename="../ui/mainwindow.cpp" line="669"/>
-        <location filename="../ui/mainwindow.cpp" line="686"/>
+        <location filename="../ui/mainwindow.cpp" line="671"/>
+        <location filename="../ui/mainwindow.cpp" line="688"/>
         <source>Resume</source>
-        <translation type="unfinished"></translation>
+        <translation>恢復</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="105"/>
@@ -102,10 +102,10 @@
         <location filename="../build_win10/lanshare_autogen/include/ui_mainwindow.h" line="300"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="282"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="300"/>
-        <location filename="../ui/mainwindow.cpp" line="667"/>
-        <location filename="../ui/mainwindow.cpp" line="684"/>
+        <location filename="../ui/mainwindow.cpp" line="669"/>
+        <location filename="../ui/mainwindow.cpp" line="686"/>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>暫停</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="131"/>
@@ -117,7 +117,7 @@
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="286"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="304"/>
         <source>Cancel selected item</source>
-        <translation type="unfinished"></translation>
+        <translation>取消已選項目</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="134"/>
@@ -130,8 +130,8 @@
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="306"/>
         <location filename="../ui/mainwindow.cpp" line="53"/>
         <location filename="../ui/mainwindow.cpp" line="54"/>
-        <location filename="../ui/mainwindow.cpp" line="671"/>
-        <location filename="../ui/mainwindow.cpp" line="688"/>
+        <location filename="../ui/mainwindow.cpp" line="673"/>
+        <location filename="../ui/mainwindow.cpp" line="690"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -145,7 +145,7 @@
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="290"/>
         <location filename="../test_build/lanshare_autogen/include/ui_mainwindow.h" line="308"/>
         <source>Clear completed items</source>
-        <translation type="unfinished"></translation>
+        <translation>清除已完成的項目</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="223"/>
@@ -157,7 +157,7 @@
         <translation>下載</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="144"/>
+        <location filename="../ui/mainwindow.cpp" line="146"/>
         <source>Confirm close</source>
         <translation type="unfinished"></translation>
     </message>
@@ -190,72 +190,72 @@
         <translation>傳送資料夾</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="145"/>
+        <location filename="../ui/mainwindow.cpp" line="147"/>
         <source>You are about to close &amp; abort all transfers. Do you want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="232"/>
+        <location filename="../ui/mainwindow.cpp" line="234"/>
         <source>Select files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="575"/>
+        <location filename="../ui/mainwindow.cpp" line="577"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="632"/>
-        <location filename="../ui/mainwindow.cpp" line="650"/>
+        <location filename="../ui/mainwindow.cpp" line="634"/>
+        <location filename="../ui/mainwindow.cpp" line="652"/>
         <source>About</source>
         <translation>關於</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="633"/>
+        <location filename="../ui/mainwindow.cpp" line="635"/>
         <source>About this program</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="642"/>
+        <location filename="../ui/mainwindow.cpp" line="644"/>
         <source>Show Main Window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="653"/>
+        <location filename="../ui/mainwindow.cpp" line="655"/>
         <source>About Qt</source>
         <translation>關於 QT</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="656"/>
+        <location filename="../ui/mainwindow.cpp" line="658"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/mainwindow.cpp" line="659"/>
-        <location filename="../ui/mainwindow.cpp" line="674"/>
-        <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="661"/>
         <location filename="../ui/mainwindow.cpp" line="676"/>
-        <source>Open folder</source>
+        <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="663"/>
         <location filename="../ui/mainwindow.cpp" line="678"/>
-        <source>Remove</source>
+        <source>Open folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.cpp" line="665"/>
-        <location filename="../ui/mainwindow.cpp" line="682"/>
+        <location filename="../ui/mainwindow.cpp" line="680"/>
+        <source>Remove</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.cpp" line="667"/>
+        <location filename="../ui/mainwindow.cpp" line="684"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.cpp" line="680"/>
+        <location filename="../ui/mainwindow.cpp" line="682"/>
         <source>Delete from disk</source>
         <translation type="unfinished"></translation>
     </message>

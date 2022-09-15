@@ -87,6 +87,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->receiverTableView->setColumnWidth((int)TransferTableModel::Column::FileName, 340);
     ui->receiverTableView->setColumnWidth((int)TransferTableModel::Column::Progress, 160);
 
+    QString a = "QT Version：";
+    this->setWindowTitle(a+qVersion());
 
     //static const string RECTANGLE;
 
@@ -711,4 +713,14 @@ void MainWindow::setupSystrayIcon()
     mSystrayIcon->setToolTip(PROGRAM_NAME);
     mSystrayIcon->setContextMenu(mSystrayMenu);
     mSystrayIcon->show();
+}
+
+
+void MainWindow::keyPressEvent(QKeyEvent * event){
+    switch(event->key()){
+    case Qt::Key_Escape:
+        exit(0);
+        break;
+    }
+
 }

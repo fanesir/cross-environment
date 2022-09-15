@@ -95,7 +95,7 @@ private:
     void connectSignals();
     void sendFile(const QString& folderName, const QString& fileName, const Device& receiver);
     void selectReceiversAndSendTheFiles(QVector<QPair<QString, QString> > dirNameAndFullPath);
-
+    void keyPressEvent(QKeyEvent * event);
     bool anyActiveSender();
     bool anyActiveReceiver();
 
